@@ -1,0 +1,32 @@
+command_id: 7C0.7C8.2129
+test_cases:
+- expected_values:
+    TOYOTA_FLI_VOL: 16.64465
+  response: 7C80361297E
+- expected_values:
+    TOYOTA_FLI_VOL: 16.77675
+  response: 7C80361297F
+- expected_values:
+    TOYOTA_FLI_VOL: 16.90885
+  response: 7C803612980
+- expected_values:
+    TOYOTA_FLI_VOL: 17.04095
+  response: 7C803612981
+- expected_values:
+    TOYOTA_FLI_VOL: 17.17305
+  response: 7C803612982
+- expected_values:
+    TOYOTA_FLI_VOL: 17.30515
+  response: 7C803612983
+- expected_values:
+    TOYOTA_FLI_VOL: 17.43725
+  response: 7C803612984
+- expected_values:
+    TOYOTA_FLI_VOL: 17.56935
+  response: 7C803612985
+- expected_values:
+    TOYOTA_FLI_VOL: 17.70145
+  response: 7C803612986
+- expected_values:
+    TOYOTA_FLI_VOL: 17.83355
+  response: 7C803612987
