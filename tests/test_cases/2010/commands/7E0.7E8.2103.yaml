@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2103
+test_cases:
+- expected_values:
+    TOYOTA_EVAP_PURGE_DUTY: 47.84314
+    TOYOTA_IGN_ADVANCE: 128
+    TOYOTA_LONG_FT_B1S1: -6.25
+    TOYOTA_SHORT_FT_B1S1: 0
+  response: |-
+    7E8100A610302028078
+    7E821807AA200000000
