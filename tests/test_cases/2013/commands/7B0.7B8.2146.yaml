@@ -7,6 +7,14 @@ test_cases:
     TOYOTA_ZP_YAW_RATE: 0
   response: |-
     7B810096146FF00807F
+    7B821ECFF0200000000
+- expected_values:
+    TOYOTA_ZP_DEC: 24.91
+    TOYOTA_ZP_DEC2: -25.11
+    TOYOTA_ZP_YAW: 0
+    TOYOTA_ZP_YAW_RATE: 0
+  response: |-
+    7B810096146FF00807F
     7B821EFFF0800000000
 - expected_values:
     TOYOTA_ZP_DEC: 24.91
@@ -23,14 +31,6 @@ test_cases:
     TOYOTA_ZP_YAW_RATE: 0
   response: |-
     7B810096146FF00807F
-    7B821F1FF0700000000
-- expected_values:
-    TOYOTA_ZP_DEC: 24.91
-    TOYOTA_ZP_DEC2: -25.11
-    TOYOTA_ZP_YAW: 0
-    TOYOTA_ZP_YAW_RATE: 0
-  response: |-
-    7B810096146FF00807F
     7B821F7FF0100000000
 - expected_values:
     TOYOTA_ZP_DEC: 24.91
@@ -38,21 +38,5 @@ test_cases:
     TOYOTA_ZP_YAW: 0
     TOYOTA_ZP_YAW_RATE: 0
   response: |-
-    7B810096146FF00807F
-    7B821FDFF0100000000
-- expected_values:
-    TOYOTA_ZP_DEC: 24.91
-    TOYOTA_ZP_DEC2: -25.11
-    TOYOTA_ZP_YAW: 0
-    TOYOTA_ZP_YAW_RATE: 0
-  response: |-
-    7B810096146FF00807F
-    7B821FEFF0800000000
-- expected_values:
-    TOYOTA_ZP_DEC: 24.91
-    TOYOTA_ZP_DEC2: -25.11
-    TOYOTA_ZP_YAW: 0
-    TOYOTA_ZP_YAW_RATE: 0
-  response: |-
     7B810096146FF008080
-    7B82100FF0700000000
+    7B82100FF0100000000
