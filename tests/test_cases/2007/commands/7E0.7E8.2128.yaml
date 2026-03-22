@@ -1,29 +1,17 @@
 command_id: 7E0.7E8.2128
 test_cases:
 - expected_values:
+    TOYOTA_ODO: 7896411
+  response: 7E8066128787D5B25
+- expected_values:
     TOYOTA_ODO: 8019807
   response: 7E80661287A5F5FF3
 - expected_values:
-    TOYOTA_ODO: 8065887
-  response: 7E80661287B135FE9
+    TOYOTA_ODO: 8323429
+  response: 7E80661287F016511
 - expected_values:
-    TOYOTA_ODO: 8252771
-  response: 7E80661287DED6377
-- expected_values:
-    TOYOTA_ODO: 8320102
-  response: 7E80661287EF46651
-- expected_values:
-    TOYOTA_ODO: 8353892
-  response: 7E80661287F7864D5
-- expected_values:
-    TOYOTA_ODO: 8412774
-  response: 7E8066128805E6633
-- expected_values:
-    TOYOTA_ODO: 8417638
-  response: '7E806612880716651'
-- expected_values:
-    TOYOTA_ODO: 8698218
-  response: 7E806612884B96A2F
+    TOYOTA_ODO: 8453224
+  response: 7E806612880FC6881
 - expected_values:
     TOYOTA_ODO: 8997996
   response: 7E8066128894C6C7D

@@ -5,30 +5,6 @@ test_cases:
     TOYOTA_NUMBER_OF_EMISSION_DTC: 102
   response: '7E803610666'
 - expected_values:
-    TOYOTA_MIL: 0
-    TOYOTA_NUMBER_OF_EMISSION_DTC: 116
-  response: '7E803610674'
-- expected_values:
-    TOYOTA_MIL: 0
-    TOYOTA_NUMBER_OF_EMISSION_DTC: 125
-  response: 7E80361067D
-- expected_values:
-    TOYOTA_MIL: 0
-    TOYOTA_NUMBER_OF_EMISSION_DTC: 126
-  response: 7E80361067E
-- expected_values:
-    TOYOTA_MIL: 0
-    TOYOTA_NUMBER_OF_EMISSION_DTC: 127
-  response: 7E80361067F
-- expected_values:
     TOYOTA_MIL: 1
-    TOYOTA_NUMBER_OF_EMISSION_DTC: 0
-  response: '7E803610680'
-- expected_values:
-    TOYOTA_MIL: 1
-    TOYOTA_NUMBER_OF_EMISSION_DTC: 1
-  response: '7E803610681'
-- expected_values:
-    TOYOTA_MIL: 1
-    TOYOTA_NUMBER_OF_EMISSION_DTC: 3
-  response: '7E803610683'
+    TOYOTA_NUMBER_OF_EMISSION_DTC: 13
+  response: 7E80361068D
