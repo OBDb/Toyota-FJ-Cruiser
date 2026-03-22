@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.21DA
 test_cases:
 - expected_values:
+    TOYOTA_GEAR_V3: 1
+  response: 7E80461DA0104
+- expected_values:
     TOYOTA_GEAR_V3: 2
   response: 7E80461DA0204
 - expected_values:
