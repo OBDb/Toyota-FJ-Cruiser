@@ -3,6 +3,14 @@ test_cases:
 - expected_values:
     TOYOTA_CALCULATED_LOAD_7E0: 0
     TOYOTA_VEHICLE_LOAD: 2.88853
+  response: '7E806610100076504'
+- expected_values:
+    TOYOTA_CALCULATED_LOAD_7E0: 0
+    TOYOTA_VEHICLE_LOAD: 2.88853
+  response: '7E806610100076524'
+- expected_values:
+    TOYOTA_CALCULATED_LOAD_7E0: 0
+    TOYOTA_VEHICLE_LOAD: 2.88853
   response: '7E806610100076525'
 - expected_values:
     TOYOTA_CALCULATED_LOAD_7E0: 0
