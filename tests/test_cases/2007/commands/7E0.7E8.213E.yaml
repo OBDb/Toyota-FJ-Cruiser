@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.213E
+test_cases:
+- expected_values:
+    TOYOTA_CAT_T_B1S2: 156.4
+  response: 7E804613E07AC

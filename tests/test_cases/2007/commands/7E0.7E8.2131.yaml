@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2131
+test_cases:
+- expected_values:
+    TOYOTA_VALVEMATIC_CURRENT: 110.19531
+  response: 7E80461312C14
