@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.21B2
+test_cases:
+- expected_values:
+    TOYOTA_KNOCK_ADJUST: 20.47004
+    TOYOTA_KNOCK_FEEDBACK: -2.99907
+  response: 7E80661B20A8F07A0

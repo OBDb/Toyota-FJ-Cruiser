@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.21D9
+test_cases:
+- expected_values:
+    TOYOTA_ATF_T_V_14: -25
+    TOYOTA_ATF_T_V_21: -40
+    TOYOTA_ATF_T_V_5: 76.875
+    TOYOTA_ATF_T_V_8: 78.125
+  response: |-
+    7E8100A61D90F000000
+    7E82174E07620000000
