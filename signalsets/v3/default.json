@@ -73,12 +73,12 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "48"}, "freq": 1,
   "signals": [
-    {"id": "FJ_FR_REGEN_REQUEST",   "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative request"},
-    {"id": "FJ_FR_REGEN_OPERATION", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative operation"}
+    {"id": "FJ_CRUISER_FR_REGEN_REQUEST",   "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative request"},
+    {"id": "FJ_CRUISER_FR_REGEN_OPERATION", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative operation"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "58"}, "freq": 1,
   "signals": [
-    {"id": "FJ_REGEN_COOPERATION", "path": "Battery", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Regenerative braking cooperation"}
+    {"id": "FJ_CRUISER_REGEN_COOPERATION", "path": "Battery", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Regenerative braking cooperation"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5A"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2014 },
   "signals": [
@@ -107,12 +107,12 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "A3"}, "freq": 1,
   "signals": [
-    {"id": "FJ_SLA_SOLENOID_CURRENT", "path": "Battery", "fmt": {           "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay a, solenoid current"},
-    {"id": "FJ_SLR_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay r solenoid current"},
-    {"id": "FJ_SSC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Service contactor solenoid current"},
-    {"id": "FJ_SCC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Charge contactor current"},
-    {"id": "FJ_SMC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main connector solenoid current"},
-    {"id": "FJ_SRC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Relay control solenoid current"}
+    {"id": "FJ_CRUISER_SLA_SOLENOID_CURRENT", "path": "Battery", "fmt": {           "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay a, solenoid current"},
+    {"id": "FJ_CRUISER_SLR_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay r solenoid current"},
+    {"id": "FJ_CRUISER_SSC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Service contactor solenoid current"},
+    {"id": "FJ_CRUISER_SCC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Charge contactor current"},
+    {"id": "FJ_CRUISER_SMC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main connector solenoid current"},
+    {"id": "FJ_CRUISER_SRC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Relay control solenoid current"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"21": "A6"}, "freq": 60,
   "signals": [
@@ -266,31 +266,31 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "07"}, "freq": 1, "dbgfilter": { "to": 2007, "from": 2009 },
   "signals": [
-    {"id": "FJ_LTFT1_21", "path": "Engine", "fmt": { "len": 8, "max": 99.15, "min": -100, "mul": 0.7809803922, "add": -100, "unit": "percent" }, "name": "Long-term fuel trim, bank 1"}
+    {"id": "FJ_CRUISER_LTFT1_21", "path": "Engine", "fmt": { "len": 8, "max": 99.15, "min": -100, "mul": 0.7809803922, "add": -100, "unit": "percent" }, "name": "Long-term fuel trim, bank 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0D"}, "freq": 1,
   "signals": [
-    {"id": "FJ_VSS_21", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
+    {"id": "FJ_CRUISER_VSS_21", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0E"}, "freq": 1,
   "signals": [
-    {"id": "FJ_SPARKADV_21", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Ignition advance"}
+    {"id": "FJ_CRUISER_SPARKADV_21", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Ignition advance"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0F"}, "freq": 1,
   "signals": [
-    {"id": "FJ_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature"}
+    {"id": "FJ_CRUISER_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "10"}, "freq": 1,
   "signals": [
-    {"id": "FJ_MAF_21", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow"}
+    {"id": "FJ_CRUISER_MAF_21", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "11"}, "freq": 1,
   "signals": [
-    {"id": "FJ_THROTTLE_21", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Throttle position"}
+    {"id": "FJ_CRUISER_THROTTLE_21", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Throttle position"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "14"}, "freq": 1,
   "signals": [
-    {"id": "FJ_O2S11_V", "path": "Engine", "fmt": { "len": 8, "max": 1.27, "mul": 0.0049960784, "unit": "volts" }, "name": "Oxygen sensor voltage, bank 1 sensor 1"}
+    {"id": "FJ_CRUISER_O2S11_V", "path": "Engine", "fmt": { "len": 8, "max": 1.27, "mul": 0.0049960784, "unit": "volts" }, "name": "Oxygen sensor voltage, bank 1 sensor 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2009], "from": 2014 },
   "signals": [
@@ -372,9 +372,9 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2009 },
   "signals": [
-    {"id": "FJ_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 0.002,                          "div": 32000000,             "unit": "liters"       }, "name": "Injection volume per 10 injections, cylinder 1"},
-    {"id": "FJ_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.535,                         "div": 1000,                 "unit": "milliseconds" }, "name": "Injection duration for cylinder 1"},
-    {"id": "FJ_TOT_FT_1",      "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 49.6,   "min": -50, "mul": 100, "div": 256,      "add": -50, "unit": "percent"      }, "name": "Total fuel trim, bank 1"}
+    {"id": "FJ_CRUISER_INJ_VOL_CYL_1", "path": "Engine", "fmt": {           "len": 16, "max": 0.002,                          "div": 32000000,             "unit": "liters"       }, "name": "Injection volume per 10 injections, cylinder 1"},
+    {"id": "FJ_CRUISER_INJ_DUR_CYL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.535,                         "div": 1000,                 "unit": "milliseconds" }, "name": "Injection duration for cylinder 1"},
+    {"id": "FJ_CRUISER_TOT_FT_1",      "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 49.6,   "min": -50, "mul": 100, "div": 256,      "add": -50, "unit": "percent"      }, "name": "Total fuel trim, bank 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3E"}, "freq": 5, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
@@ -414,21 +414,21 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "44"}, "freq": 1,
   "signals": [
-    {"id": "FJ_VARIABLE_VLV_TIM_AIM_1", "path": "Engine", "fmt": {           "len": 16, "max": 399, "mul": 1333,         "div": 218450, "unit": "percent" }, "name": "Variable valve timing aim angle 1"},
-    {"id": "FJ_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399, "mul": 0.0061020829,                "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
-    {"id": "FJ_VARIABLE_VLV_TIM_1",     "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 639, "mul": 0.0097642481,                "unit": "degrees" }, "name": "Variable valve timing change angle 1"}
+    {"id": "FJ_CRUISER_VARIABLE_VLV_TIM_AIM_1", "path": "Engine", "fmt": {           "len": 16, "max": 399, "mul": 1333,         "div": 218450, "unit": "percent" }, "name": "Variable valve timing aim angle 1"},
+    {"id": "FJ_CRUISER_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399, "mul": 0.0061020829,                "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
+    {"id": "FJ_CRUISER_VARIABLE_VLV_TIM_1",     "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 639, "mul": 0.0097642481,                "unit": "degrees" }, "name": "Variable valve timing change angle 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2009, 2011], "from": 2014 },
   "signals": [
-    {"id": "FJ_MISFIRE_RPM",               "path": "Engine",          "fmt": {"bix": 8,  "len": 8,  "max": 6375,               "mul": 25,                          "unit": "rpm"     }, "name": "Misfire RPM"},
-    {"id": "FJ_MISFIRE_LOAD",              "path": "Engine.Misfires", "fmt": {"bix": 16, "len": 8,  "max": 3.98,               "mul": 4,  "div": 256,              "unit": "scalar"  }, "name": "Misfire load"},
-    {"id": "FJ_CYL1_MISFIRE_CNT",          "path": "Engine.Misfires", "fmt": {"bix": 24, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "Cylinder #1 misfire count"},
-    {"id": "FJ_CYL2_MISFIRE_CNT",          "path": "Engine.Misfires", "fmt": {"bix": 32, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "Cylinder #2 misfire count"},
-    {"id": "FJ_CYL3_MISFIRE_CNT",          "path": "Engine.Misfires", "fmt": {"bix": 40, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "Cylinder #3 misfire count"},
-    {"id": "FJ_CYL4_MISFIRE_CNT",          "path": "Engine.Misfires", "fmt": {"bix": 48, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "Cylinder #4 misfire count"},
-    {"id": "FJ_ALL_CYLINDERS_MISFIRE_CNT", "path": "Engine.Misfires", "fmt": {"bix": 56, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "All cylinders misfire count"},
-    {"id": "FJ_IGNITION_TRIG_CNT",         "path": "Control",         "fmt": {"bix": 64, "len": 16, "max": 65535,                                                  "unit": "scalar"  }, "name": "Ignition trigger count"},
-    {"id": "FJ_MISFIRE_MARGIN",            "path": "Engine.Misfires", "fmt": {"bix": 80, "len": 8,  "max": 127,   "min": -128,                        "add": -128, "unit": "percent" }, "name": "Misfire margin"}
+    {"id": "FJ_CRUISER_MISFIRE_RPM",               "path": "Engine",          "fmt": {"bix": 8,  "len": 8,  "max": 6375,               "mul": 25,                          "unit": "rpm"     }, "name": "Misfire RPM"},
+    {"id": "FJ_CRUISER_MISFIRE_LOAD",              "path": "Engine.Misfires", "fmt": {"bix": 16, "len": 8,  "max": 3.98,               "mul": 4,  "div": 256,              "unit": "scalar"  }, "name": "Misfire load"},
+    {"id": "FJ_CRUISER_CYL1_MISFIRE_CNT",          "path": "Engine.Misfires", "fmt": {"bix": 24, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "Cylinder #1 misfire count"},
+    {"id": "FJ_CRUISER_CYL2_MISFIRE_CNT",          "path": "Engine.Misfires", "fmt": {"bix": 32, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "Cylinder #2 misfire count"},
+    {"id": "FJ_CRUISER_CYL3_MISFIRE_CNT",          "path": "Engine.Misfires", "fmt": {"bix": 40, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "Cylinder #3 misfire count"},
+    {"id": "FJ_CRUISER_CYL4_MISFIRE_CNT",          "path": "Engine.Misfires", "fmt": {"bix": 48, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "Cylinder #4 misfire count"},
+    {"id": "FJ_CRUISER_ALL_CYLINDERS_MISFIRE_CNT", "path": "Engine.Misfires", "fmt": {"bix": 56, "len": 8,  "max": 255,                                                    "unit": "scalar"  }, "name": "All cylinders misfire count"},
+    {"id": "FJ_CRUISER_IGNITION_TRIG_CNT",         "path": "Control",         "fmt": {"bix": 64, "len": 16, "max": 65535,                                                  "unit": "scalar"  }, "name": "Ignition trigger count"},
+    {"id": "FJ_CRUISER_MISFIRE_MARGIN",            "path": "Engine.Misfires", "fmt": {"bix": 80, "len": 8,  "max": 127,   "min": -128,                        "add": -128, "unit": "percent" }, "name": "Misfire margin"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "47"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
@@ -436,20 +436,20 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "49"}, "freq": 3600,
   "signals": [
-    {"id": "FJ_REQ_ENG_TQ",           "path": "Engine",   "fmt": {           "len": 16, "max": 16383,                                     "div": 4,                 "unit": "scalar"       }, "name": "Requested engine torque"},
-    {"id": "FJ_HIGH_V_TGT_RPM",       "path": "Movement", "fmt": {"bix": 16, "len": 8,  "max": 6375,                 "mul": 25,                                     "unit": "rpm"          }, "name": "High voltage, target engine speed"},
-    {"id": "FJ_ACT_ENG_TQ",           "path": "Engine",   "fmt": {"bix": 24, "len": 16, "max": 32767, "min": -32768,                                 "add": -32768, "unit": "newtonMeters" }, "name": "Actual engine torque"},
-    {"id": "FJ_ENG_RUN_TIME_UP_255",  "path": "Engine",   "fmt": {"bix": 40, "len": 8,  "max": 255,                                                                 "unit": "seconds"      }, "name": "Engine run time, up to 255 sec. only"},
-    {"id": "FJ_REQ_ENG_RUN_TIME",     "path": "Engine",   "fmt": {"bix": 48, "len": 8,  "max": 25.5,                                      "div": 10,                "unit": "seconds"      }, "name": "Request engine run time"},
-    {"id": "FJ_JUDGE_TIME_ENG_IGN",   "path": "Engine",   "fmt": {"bix": 56, "len": 8,  "max": 25.5,                                      "div": 10,                "unit": "seconds"      }, "name": "Judge time engine ignition"},
-    {"id": "FJ_JUDGE_TIME_ENG",       "path": "Engine",   "fmt": {"bix": 64, "len": 8,  "max": 25.5,                                      "div": 10,                "unit": "seconds"      }, "name": "Judge time engine output"},
-    {"id": "FJ_IDLE_SPD_CTRL_L_S",    "path": "Engine",   "fmt": {"bix": 72, "len": 16, "max": 79.99,                "mul": 0.0012206912,                           "unit": "scalar"       }, "name": "Idle speed control learning value, l/s"},
-    {"id": "FJ_ENG_INDEPENDENT_CTRL", "path": "Engine",   "fmt": {"bix": 88, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Engine independent control"},
-    {"id": "FJ_REQ_WARM_UP",          "path": "Engine",   "fmt": {"bix": 89, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Request warm-up"},
-    {"id": "FJ_RACING_OPERATION",     "path": "Engine",   "fmt": {"bix": 90, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Racing operation"},
-    {"id": "FJ_ENG_INDEPENDENT",      "path": "Engine",   "fmt": {"bix": 91, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Engine independent"},
-    {"id": "FJ_F_C_ENG_STOP_REQ",     "path": "Engine",   "fmt": {"bix": 92, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Fuel cut for engine stop request"},
-    {"id": "FJ_IDLE_SPD_CTRL",        "path": "Engine",   "fmt": {"bix": 93, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Idle speed control learning"}
+    {"id": "FJ_CRUISER_REQ_ENG_TQ",           "path": "Engine",   "fmt": {           "len": 16, "max": 16383,                                     "div": 4,                 "unit": "scalar"       }, "name": "Requested engine torque"},
+    {"id": "FJ_CRUISER_HIGH_V_TGT_RPM",       "path": "Movement", "fmt": {"bix": 16, "len": 8,  "max": 6375,                 "mul": 25,                                     "unit": "rpm"          }, "name": "High voltage, target engine speed"},
+    {"id": "FJ_CRUISER_ACT_ENG_TQ",           "path": "Engine",   "fmt": {"bix": 24, "len": 16, "max": 32767, "min": -32768,                                 "add": -32768, "unit": "newtonMeters" }, "name": "Actual engine torque"},
+    {"id": "FJ_CRUISER_ENG_RUN_TIME_UP_255",  "path": "Engine",   "fmt": {"bix": 40, "len": 8,  "max": 255,                                                                 "unit": "seconds"      }, "name": "Engine run time, up to 255 sec. only"},
+    {"id": "FJ_CRUISER_REQ_ENG_RUN_TIME",     "path": "Engine",   "fmt": {"bix": 48, "len": 8,  "max": 25.5,                                      "div": 10,                "unit": "seconds"      }, "name": "Request engine run time"},
+    {"id": "FJ_CRUISER_JUDGE_TIME_ENG_IGN",   "path": "Engine",   "fmt": {"bix": 56, "len": 8,  "max": 25.5,                                      "div": 10,                "unit": "seconds"      }, "name": "Judge time engine ignition"},
+    {"id": "FJ_CRUISER_JUDGE_TIME_ENG",       "path": "Engine",   "fmt": {"bix": 64, "len": 8,  "max": 25.5,                                      "div": 10,                "unit": "seconds"      }, "name": "Judge time engine output"},
+    {"id": "FJ_CRUISER_IDLE_SPD_CTRL_L_S",    "path": "Engine",   "fmt": {"bix": 72, "len": 16, "max": 79.99,                "mul": 0.0012206912,                           "unit": "scalar"       }, "name": "Idle speed control learning value, l/s"},
+    {"id": "FJ_CRUISER_ENG_INDEPENDENT_CTRL", "path": "Engine",   "fmt": {"bix": 88, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Engine independent control"},
+    {"id": "FJ_CRUISER_REQ_WARM_UP",          "path": "Engine",   "fmt": {"bix": 89, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Request warm-up"},
+    {"id": "FJ_CRUISER_RACING_OPERATION",     "path": "Engine",   "fmt": {"bix": 90, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Racing operation"},
+    {"id": "FJ_CRUISER_ENG_INDEPENDENT",      "path": "Engine",   "fmt": {"bix": 91, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Engine independent"},
+    {"id": "FJ_CRUISER_F_C_ENG_STOP_REQ",     "path": "Engine",   "fmt": {"bix": 92, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Fuel cut for engine stop request"},
+    {"id": "FJ_CRUISER_IDLE_SPD_CTRL",        "path": "Engine",   "fmt": {"bix": 93, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Idle speed control learning"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "51"}, "freq": 1, "dbgfilter": { "to": 2009, "from": 2014 },
   "signals": [
@@ -506,11 +506,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "BD"}, "freq": 1,
   "signals": [
-    {"id": "FJ_TRANS_OUT_RPM", "path": "Engine", "fmt": { "len": 8, "max": 12750, "mul": 50, "unit": "rpm" }, "name": "Transmission output shaft speed"}
+    {"id": "FJ_CRUISER_TRANS_OUT_RPM", "path": "Engine", "fmt": { "len": 8, "max": 12750, "mul": 50, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "BE"}, "freq": 1,
   "signals": [
-    {"id": "FJ_CVT_OIL_P", "path": "Engine", "fmt": { "len": 8, "max": 10200, "mul": 40, "unit": "kilopascal" }, "name": "Continuously variable transmission oil pressure"}
+    {"id": "FJ_CRUISER_CVT_OIL_P", "path": "Engine", "fmt": { "len": 8, "max": 10200, "mul": 40, "unit": "kilopascal" }, "name": "Continuously variable transmission oil pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "C1"}, "freq": 3600, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
@@ -536,7 +536,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "DD"}, "freq": 1,
   "signals": [
-    {"id": "FJ_CVT_LEARNED", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Continuously variable transmission learning complete"}
+    {"id": "FJ_CRUISER_CVT_LEARNED", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Continuously variable transmission learning complete"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "E1"}, "freq": 3600, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
@@ -552,7 +552,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "E4"}, "freq": 1,
   "signals": [
-    {"id": "FJ_INJ_PW", "path": "Engine", "fmt": { "len": 8, "max": 32.6, "mul": 163, "div": 1275, "unit": "milliseconds" }, "name": "Injector pulse width"}
+    {"id": "FJ_CRUISER_INJ_PW", "path": "Engine", "fmt": { "len": 8, "max": 32.6, "mul": 163, "div": 1275, "unit": "milliseconds" }, "name": "Injector pulse width"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "E6"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
@@ -562,11 +562,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "E7"}, "freq": 1,
   "signals": [
-    {"id": "FJ_EGR_STEP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation valve step"}
+    {"id": "FJ_CRUISER_EGR_STEP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation valve step"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "ED"}, "freq": 1,
   "signals": [
-    {"id": "FJ_EGR_T", "path": "Engine", "fmt": { "len": 8, "max": 159, "mul": 53, "div": 85, "unit": "celsius" }, "name": "Exhaust gas recirculation temperature"}
+    {"id": "FJ_CRUISER_EGR_T", "path": "Engine", "fmt": { "len": 8, "max": 159, "mul": 53, "div": 85, "unit": "celsius" }, "name": "Exhaust gas recirculation temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "F3"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
