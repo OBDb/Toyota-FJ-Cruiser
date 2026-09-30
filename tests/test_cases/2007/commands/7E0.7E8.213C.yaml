@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     TOYOTA_INJ_VOL_CYL_1: 2.047
   response: 7E804613C11E3
+- expected_values:
+    TOYOTA_INJ_VOL_CYL_1: 2.047
+  response: 7E804613C11FA
+- expected_values:
+    TOYOTA_INJ_VOL_CYL_1: 2.047
+  response: 7E804613C133E
+- expected_values:
+    TOYOTA_INJ_VOL_CYL_1: 2.047
+  response: 7E804613C1429
+- expected_values:
+    TOYOTA_INJ_VOL_CYL_1: 2.047
+  response: 7E804613C18E8
+- expected_values:
+    TOYOTA_INJ_VOL_CYL_1: 2.047
+  response: 7E804613C1962

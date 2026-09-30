@@ -4,3 +4,9 @@ test_cases:
     TOYOTA_CC_S: 0
     TOYOTA_CC_VSS: 0
   response: '7E80461210000'
+- expected_values:
+    TOYOTA_CC_S: 0
+    TOYOTA_CC_VSS: 0
+  response: |-
+    7E80461210000
+    7E8044110023F
