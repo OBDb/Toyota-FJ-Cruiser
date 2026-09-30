@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2106
 test_cases:
 - expected_values:
-    FJ_CRUISER_MIL: 1
-    FJ_CRUISER_NUMBER_OF_EMISSION_DTC: 2
+    FJ_MIL: 1
+    FJ_NUMBER_OF_EMISSION_DTC: 2
   response: |-
     02201F6
     023020702
@@ -41,10 +41,10 @@ test_cases:
     02301FF
     2D01046100034000579
 - expected_values:
-    FJ_CRUISER_MIL: 0
-    FJ_CRUISER_NUMBER_OF_EMISSION_DTC: 102
+    FJ_MIL: 0
+    FJ_NUMBER_OF_EMISSION_DTC: 102
   response: '7E803610666'
 - expected_values:
-    FJ_CRUISER_MIL: 1
-    FJ_CRUISER_NUMBER_OF_EMISSION_DTC: 18
+    FJ_MIL: 1
+    FJ_NUMBER_OF_EMISSION_DTC: 18
   response: '7E803610692'

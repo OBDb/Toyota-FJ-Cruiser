@@ -1,20 +1,20 @@
 command_id: 7E0.7E8.2121
 test_cases:
 - expected_values:
-    FJ_CRUISER_CC_S: 0
+    FJ_CC_S: 0
   response: '7E80761210000000000'
 - expected_values:
-    FJ_CRUISER_CC_S: 0
+    FJ_CC_S: 0
   response: 7E807612100000000E0
 - expected_values:
-    FJ_CRUISER_CC_S: 73
+    FJ_CC_S: 73
   response: 7E807612148490CFC00
 - expected_values:
-    FJ_CRUISER_CC_S: 92
+    FJ_CC_S: 92
   response: 7E8076121505CB2FC00
 - expected_values:
-    FJ_CRUISER_CC_S: 115
+    FJ_CC_S: 115
   response: 7E8076121717340FC00
 - expected_values:
-    FJ_CRUISER_CC_S: 0
+    FJ_CC_S: 0
   response: 7E80761217E00008000

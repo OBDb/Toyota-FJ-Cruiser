@@ -1,8 +1,8 @@
 command_id: 780.788.2104
 test_cases:
 - expected_values:
-    FJ_CRUISER_BUCKLE_RS: 1
+    FJ_BUCKLE_RS: 1
   response: '78806610402020101'
 - expected_values:
-    FJ_CRUISER_BUCKLE_RS: 2
+    FJ_BUCKLE_RS: 2
   response: '78806610402020102'

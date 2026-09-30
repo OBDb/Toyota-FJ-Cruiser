@@ -1,10 +1,10 @@
 command_id: 7E0.7E8.2101
 test_cases:
 - expected_values:
-    FJ_CRUISER_CALCULATED_LOAD_7E0: 0
+    FJ_CALCULATED_LOAD_7E0: 0
   response: '7E806610100076500'
 - expected_values:
-    FJ_CRUISER_CALCULATED_LOAD_7E0: 0
+    FJ_CALCULATED_LOAD_7E0: 0
   response: |-
     7E806610100076500
     7E804411009CD
@@ -12,8 +12,8 @@ test_cases:
     7E8215A005BE0000000
     7E80461DA0404
 - expected_values:
-    FJ_CRUISER_CALCULATED_LOAD_7E0: 0
+    FJ_CALCULATED_LOAD_7E0: 0
   response: '7E806610100076504'
 - expected_values:
-    FJ_CRUISER_CALCULATED_LOAD_7E0: 0
+    FJ_CALCULATED_LOAD_7E0: 0
   response: '7E806610100076525'

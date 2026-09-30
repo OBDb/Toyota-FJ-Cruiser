@@ -1,20 +1,20 @@
 command_id: 7E0.7E8.213E
 test_cases:
 - expected_values:
-    FJ_CRUISER_CAT_T_B1S2_V2: 89.3
+    FJ_CAT_T_B1S2_V2: 89.3
   response: 7E804613E050D
 - expected_values:
-    FJ_CRUISER_CAT_T_B1S2_V2: 122.1
+    FJ_CAT_T_B1S2_V2: 122.1
   response: 7E804613E0655
 - expected_values:
-    FJ_CRUISER_CAT_T_B1S2_V2: 156.4
+    FJ_CAT_T_B1S2_V2: 156.4
   response: 7E804613E07AC
 - expected_values:
-    FJ_CRUISER_CAT_T_B1S2_V2: 161.1
+    FJ_CAT_T_B1S2_V2: 161.1
   response: 7E804613E07DB
 - expected_values:
-    FJ_CRUISER_CAT_T_B1S2_V2: 283.2
+    FJ_CAT_T_B1S2_V2: 283.2
   response: 7E804613E0CA0
 - expected_values:
-    FJ_CRUISER_CAT_T_B1S2_V2: 370.1
+    FJ_CAT_T_B1S2_V2: 370.1
   response: 7E804613E1005

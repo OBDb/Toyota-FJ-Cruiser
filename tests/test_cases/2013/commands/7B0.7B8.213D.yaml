@@ -1,9 +1,9 @@
 command_id: 7B0.7B8.213D
 test_cases:
 - expected_values:
-    FJ_CRUISER_ABS_WARN: 0
-    FJ_CRUISER_BRAKE_WARN: 0
-    FJ_CRUISER_BUZZER: 0
-    FJ_CRUISER_ECB_WARN: 0
-    FJ_CRUISER_SLIP_WARN: 0
+    FJ_ABS_WARN: 0
+    FJ_BRAKE_WARN: 0
+    FJ_BUZZER: 0
+    FJ_ECB_WARN: 0
+    FJ_SLIP_WARN: 0
   response: 7B804613D0000
