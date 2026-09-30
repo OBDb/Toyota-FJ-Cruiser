@@ -2,19 +2,65 @@ command_id: 7E0.7E8.213C
 test_cases:
 - expected_values:
     FJ_CRUISER_INJ_VOL_CYL_1: 0.00014
-  response: 7E804613C11E3
-- expected_values:
-    FJ_CRUISER_INJ_VOL_CYL_1: 0.00014
-  response: 7E804613C11FA
+  response: 7E804613C1169
 - expected_values:
     FJ_CRUISER_INJ_VOL_CYL_1: 0.00015
-  response: 7E804613C133E
+  response: |-
+    7E804613C1313
+    7E804411001DC
+    7E8100A61D911160004
+    7E82149204B00000000
+    7E80461DA0204
 - expected_values:
-    FJ_CRUISER_INJ_VOL_CYL_1: 0.00016
-  response: 7E804613C1429
+    FJ_CRUISER_INJ_VOL_CYL_1: 0.00018
+  response: 7E804613C1603
+- expected_values:
+    FJ_CRUISER_INJ_VOL_CYL_1: 0.00018
+  response: |-
+    7E804613C1680
+    7E80461DA0104
+    7E80441100161
+- expected_values:
+    FJ_CRUISER_INJ_VOL_CYL_1: 0.00019
+  response: |-
+    7E804613C1783
+    7E8100A61D912330004
+    7E821514053C0000000
+    7E80461DA0504
+- expected_values:
+    FJ_CRUISER_INJ_VOL_CYL_1: 0.00019
+  response: 7E804613C17FE
+- expected_values:
+    FJ_CRUISER_INJ_VOL_CYL_1: 0.00019
+  response: |-
+    7E804613C1837
+    7E8044110061F
+- expected_values:
+    FJ_CRUISER_INJ_VOL_CYL_1: 0.00019
+  response: |-
+    7E804613C183F
+    7E80461DA0404
 - expected_values:
     FJ_CRUISER_INJ_VOL_CYL_1: 0.0002
-  response: 7E804613C18E8
+  response: |-
+    7E804613C1886
+    7E8100A61D917200004
+    7E8215E6064A0000000
+    7E80461DA0304
+    7E80441100AD2
 - expected_values:
     FJ_CRUISER_INJ_VOL_CYL_1: 0.0002
-  response: 7E804613C1962
+  response: |-
+    7E804613C195B
+    7E8100A61D91A240004
+    7E821528056E0000000
+    7E80461DA0304
+- expected_values:
+    FJ_CRUISER_INJ_VOL_CYL_1: 0.00022
+  response: 7E804613C1C18
+- expected_values:
+    FJ_CRUISER_INJ_VOL_CYL_1: 0.00019
+  response: |-
+    7E8100A61D900000004
+    7E804613C1804
+    7E80461DA0104

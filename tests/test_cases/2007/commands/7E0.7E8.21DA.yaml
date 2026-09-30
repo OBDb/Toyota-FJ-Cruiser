@@ -4,14 +4,53 @@ test_cases:
     FJ_CRUISER_GEAR_V2: 1
   response: 7E80461DA0104
 - expected_values:
-    FJ_CRUISER_GEAR_V2: 2
-  response: 7E80461DA0204
+    FJ_CRUISER_GEAR_V2: 1
+  response: |-
+    7E80461DA0104
+    7E8044110016A
+- expected_values:
+    FJ_CRUISER_GEAR_V2: 1
+  response: |-
+    7E80461DA0104
+    7E804411001BE
+    7E8100A61D904020400
+    7E8216EA07580000000
+- expected_values:
+    FJ_CRUISER_GEAR_V2: 1
+  response: |-
+    7E80461DA0104
+    7E8100A61D900000004
+    7E82149C04BA0000000
+- expected_values:
+    FJ_CRUISER_GEAR_V2: 1
+  response: |-
+    7E80461DA0104
+    7E8100A61D900000004
+    7E82166806B80000000
+- expected_values:
+    FJ_CRUISER_GEAR_V2: 1
+  response: |-
+    7E80461DA0104
+    7E8100A61D905020004
+    7E8215BE06180000000
 - expected_values:
     FJ_CRUISER_GEAR_V2: 3
-  response: 7E80461DA0304
+  response: |-
+    7E80461DA0304
+    7E8044110087B
+    7E8100A61D917210004
+    7E8216E007300000000
 - expected_values:
     FJ_CRUISER_GEAR_V2: 4
-  response: 7E80461DA0404
+  response: |-
+    7E80461DA0404
+    7E80441100EC0
+- expected_values:
+    FJ_CRUISER_GEAR_V2: 4
+  response: |-
+    7E80461DA0404
+    7E8100A61D9162D0004
+    7E82169A06A40000000
 - expected_values:
     FJ_CRUISER_GEAR_V2: 4
   response: |-
@@ -19,8 +58,16 @@ test_cases:
     7E8100A61D919320004
     7E8215A005AA0000000
 - expected_values:
+    FJ_CRUISER_GEAR_V2: 4
+  response: |-
+    7E80461DA0404
+    7E8100A61D91B260004
+    7E82157805960000000
+- expected_values:
     FJ_CRUISER_GEAR_V2: 5
-  response: 7E80461DA0504
+  response: |-
+    7E80461DA0504
+    7E804411003FF
 - expected_values:
     FJ_CRUISER_GEAR_V2: 84
   response: 7E80461DA5406

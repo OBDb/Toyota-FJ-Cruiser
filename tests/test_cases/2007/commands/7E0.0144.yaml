@@ -4,11 +4,91 @@ test_cases:
     EQ_RAT: 0.85243
   response: 7E80441446D1C
 - expected_values:
+    EQ_RAT: 0.92467
+  response: |-
+    7E8044144765B
+    7E804411001CE
+- expected_values:
+    EQ_RAT: 0.93364
+  response: |-
+    7E80441447781
+    7E80461DA0404
+- expected_values:
+    EQ_RAT: 0.95164
+  response: |-
+    7E804414479CF
+    7E80441100161
+    7E8100A61D900000004
+    7E82149C04BA0000000
+    7E80461DA0104
+- expected_values:
+    EQ_RAT: 0.95299
+  response: |-
+    7E804414479FB
+    7E8044110016C
+- expected_values:
+    EQ_RAT: 0.95317
+  response: |-
+    7E80441447A01
+    7E80441100AE5
+- expected_values:
+    EQ_RAT: 0.96928
+  response: |-
+    7E80441447C11
+    7E8100A61D90F110004
+    7E82168606D60000000
+    7E80461DA0204
+    7E80441100189
+- expected_values:
+    EQ_RAT: 0.9709
+  response: |-
+    7E80441447C46
+    7E8100A61D914380004
+    7E82167C06860000000
+    7E80461DA0504
+    7E80441100964
+- expected_values:
+    EQ_RAT: 0.97151
+  response: |-
+    7E80441447C5A
+    7E8100A61D900000004
+    7E8214EC05320000000
+    7E80461DA0104
+    7E80441100165
+- expected_values:
     EQ_RAT: 0.97658
   response: 7E80441447D00
 - expected_values:
+    EQ_RAT: 0.9778
+  response: |-
+    7E80441447D28
+    7E80441100170
+- expected_values:
     EQ_RAT: 0.98421
   response: 7E80441447DFA
+- expected_values:
+    EQ_RAT: 0.99879
+  response: |-
+    7E80441447FD8
+    7E8100A61D918210004
+    7E82156E05A00000000
+    7E80461DA0304
+- expected_values:
+    EQ_RAT: 1.00282
+  response: |-
+    7E8044144805C
+    7E8100A61D9162D0004
+    7E821528053C0000000
+    7E80461DA0404
+    7E80441100539
+- expected_values:
+    EQ_RAT: 1.0034
+  response: |-
+    7E8044144806F
+    7E8100A61D91C4D0004
+    7E8216A406A40000000
+    7E80461DA0504
+    7E804411006B8
 - expected_values:
     EQ_RAT: 1.01399
   response: |-
@@ -17,6 +97,17 @@ test_cases:
     7E8215A005AA0000000
     7E80461DA0504
     7E804411007A2
+- expected_values:
+    EQ_RAT: 1.04515
+  response: |-
+    7E804414485C7
+    7E80461DA0504
+    7E80441100549
+- expected_values:
+    EQ_RAT: 1.07692
+  response: |-
+    7E804414489D8
+    7E804411003EC
 - expected_values:
     EQ_RAT: 1.19533
   response: '7E80441449900'
