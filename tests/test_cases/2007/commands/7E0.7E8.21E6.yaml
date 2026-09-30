@@ -4,17 +4,56 @@ test_cases:
     FJ_AC_COMP: 0
     FJ_FUEL_CUT: 0
     FJ_IDLE_CTRL: 0
-  response: 7E80561E6080001
+  response: 7E80561E6000001
+- expected_values:
+    FJ_AC_COMP: 0
+    FJ_FUEL_CUT: 0
+    FJ_IDLE_CTRL: 0
+  response: |-
+    7E80561E6000001
+    7E80441100589
+- expected_values:
+    FJ_AC_COMP: 0
+    FJ_FUEL_CUT: 0
+    FJ_IDLE_CTRL: 0
+  response: |-
+    7E80561E6000001
+    7E80441100D16
+- expected_values:
+    FJ_AC_COMP: 0
+    FJ_FUEL_CUT: 0
+    FJ_IDLE_CTRL: 0
+  response: |-
+    7E80561E6000001
+    7E8100A61D914290004
+    7E821578058C0000000
+    7E80461DA0404
+    7E8044110049D
 - expected_values:
     FJ_AC_COMP: 0
     FJ_FUEL_CUT: 0
     FJ_IDLE_CTRL: 1
-  response: 7E80561E64C0001
+  response: 7E80561E6400201
 - expected_values:
     FJ_AC_COMP: 0
     FJ_FUEL_CUT: 0
     FJ_IDLE_CTRL: 1
-  response: 7E80561E6500001
+  response: |-
+    7E80561E6400201
+    7E804411001F7
+    7E8100A61D9172D0004
+    7E8214CE04D80000000
+    7E80461DA0404
+- expected_values:
+    FJ_AC_COMP: 0
+    FJ_FUEL_CUT: 0
+    FJ_IDLE_CTRL: 1
+  response: |-
+    7E80561E6440001
+    7E80441100177
+    7E8100A61D908050004
+    7E82154605960000000
+    7E80461DA0104
 - expected_values:
     FJ_AC_COMP: 1
     FJ_FUEL_CUT: 0

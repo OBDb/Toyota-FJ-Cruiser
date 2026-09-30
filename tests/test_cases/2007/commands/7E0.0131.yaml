@@ -9,3 +9,109 @@ test_cases:
 - expected_values:
     CLR_DIST: 11284
   response: 7E80441312C14
+- expected_values:
+    CLR_DIST: 11307
+  response: |-
+    7E80441312C2B
+    7E8044110015A
+    7E8100A61D900000004
+    7E82149C04BA0000000
+    7E80461DA0104
+- expected_values:
+    CLR_DIST: 11307
+  response: |-
+    7E80441312C2B
+    7E8100A61D919110004
+    7E8214A604D80000000
+    7E80461DA0204
+- expected_values:
+    CLR_DIST: 11308
+  response: |-
+    7E80441312C2C
+    7E8100A61D900000004
+    7E82152805780000000
+    7E80461DA0104
+- expected_values:
+    CLR_DIST: 11309
+  response: |-
+    7E80441312C2D
+    7E80441100248
+- expected_values:
+    CLR_DIST: 11310
+  response: |-
+    7E80441312C2E
+    7E8100A61D9153C0004
+    7E82159605AA0000000
+    7E80461DA0504
+    7E804411009D8
+- expected_values:
+    CLR_DIST: 11311
+  response: |-
+    7E80441312C2F
+    7E80441100168
+- expected_values:
+    CLR_DIST: 11311
+  response: |-
+    7E80441312C2F
+    7E8100A61D9153C0004
+    7E8215AA05B40000000
+    7E80461DA0504
+- expected_values:
+    CLR_DIST: 11317
+  response: |-
+    7E80441312C35
+    7E80441100E33
+- expected_values:
+    CLR_DIST: 11320
+  response: |-
+    7E80441312C38
+    7E80441100208
+    7E8100A61D919330004
+    7E8216A406AE0000000
+    7E80461DA0404
+- expected_values:
+    CLR_DIST: 11320
+  response: |-
+    7E80441312C38
+    7E8100A61D902000004
+    7E8216A407120000000
+    7E80461DA0104
+- expected_values:
+    CLR_DIST: 11321
+  response: |-
+    7E80441312C39
+    7E804411001B0
+- expected_values:
+    CLR_DIST: 11321
+  response: |-
+    7E80441312C39
+    7E8100A61D90F160004
+    7E8216CC06E00000000
+    7E80461DA0204
+    7E804411001A7
+- expected_values:
+    CLR_DIST: 11324
+  response: |-
+    7E80441312C3C
+    7E804411001DE
+- expected_values:
+    CLR_DIST: 11325
+  response: |-
+    7E80441312C3D
+    7E8100A61D916220004
+    7E82158C05960000000
+    7E80461DA0304
+    7E804411001AD
+- expected_values:
+    CLR_DIST: 11327
+  response: |-
+    7E80441312C3F
+    7E8100A61D914370004
+    7E8215DC05E60000000
+    7E80461DA0504
+    7E804411002C3
+- expected_values:
+    CLR_DIST: 11328
+  response: |-
+    7E80441312C40
+    7E804411001E4
