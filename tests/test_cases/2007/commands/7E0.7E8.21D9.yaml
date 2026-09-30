@@ -57,15 +57,6 @@ test_cases:
 - expected_values:
     FJ_ATF_T_V_14: -40
     FJ_ATF_T_V_21: -36
-    FJ_ATF_T_V_5: 60
-    FJ_ATF_T_V_8: 65
-  response: |-
-    7E8100A61D900000004
-    7E82164006900000000
-    7E80441100172
-- expected_values:
-    FJ_ATF_T_V_14: -40
-    FJ_ATF_T_V_21: -36
     FJ_ATF_T_V_5: 62.5
     FJ_ATF_T_V_8: 67.5
   response: |-
@@ -108,6 +99,31 @@ test_cases:
     7E8044110015F
 - expected_values:
     FJ_ATF_T_V_14: -40
+    FJ_ATF_T_V_21: -36
+    FJ_ATF_T_V_5: 70.625
+    FJ_ATF_T_V_8: 76.875
+  response: |-
+    7E8100A61D900000004
+    7E8216EA074E0000000
+    7E80441100189
+- expected_values:
+    FJ_ATF_T_V_14: -40
+    FJ_ATF_T_V_21: -36
+    FJ_ATF_T_V_5: 71.875
+    FJ_ATF_T_V_8: 78.125
+  response: |-
+    7E8100A61D900000004
+    7E8216FE07620000000
+- expected_values:
+    FJ_ATF_T_V_14: -40
+    FJ_ATF_T_V_21: -36
+    FJ_ATF_T_V_5: 74.375
+    FJ_ATF_T_V_8: 80.625
+  response: |-
+    7E8100A61D900000004
+    7E821726078A0000000
+- expected_values:
+    FJ_ATF_T_V_14: -40
     FJ_ATF_T_V_21: -40
     FJ_ATF_T_V_5: 51.25
     FJ_ATF_T_V_8: 55
@@ -135,13 +151,14 @@ test_cases:
     7E8215BE06180000000
     7E80461DA0104
 - expected_values:
-    FJ_ATF_T_V_14: -27
-    FJ_ATF_T_V_21: -40
-    FJ_ATF_T_V_5: 73.125
-    FJ_ATF_T_V_8: 75.625
+    FJ_ATF_T_V_14: -35.98828
+    FJ_ATF_T_V_21: -36
+    FJ_ATF_T_V_5: 78.125
+    FJ_ATF_T_V_8: 83.125
   response: |-
-    7E8100A61D90D000000
-    7E821712073A0000000
+    7E8100A61D904030004
+    7E82176207B20000000
+    7E804411001B8
 - expected_values:
     FJ_ATF_T_V_14: -27.97266
     FJ_ATF_T_V_21: -36
@@ -156,19 +173,22 @@ test_cases:
 - expected_values:
     FJ_ATF_T_V_14: -26
     FJ_ATF_T_V_21: -40
-    FJ_ATF_T_V_5: 71.875
-    FJ_ATF_T_V_8: 78.75
-  response: |-
-    7E8100A61D90E000000
-    7E8216FE076C0000000
-- expected_values:
-    FJ_ATF_T_V_14: -26
-    FJ_ATF_T_V_21: -40
     FJ_ATF_T_V_5: 72.5
     FJ_ATF_T_V_8: 74.375
   response: |-
     7E8100A61D90E000000
     7E82170807260000000
+- expected_values:
+    FJ_ATF_T_V_14: -26
+    FJ_ATF_T_V_21: -40
+    FJ_ATF_T_V_5: 81.25
+    FJ_ATF_T_V_8: 85.625
+  response: |-
+    7E8100A61D90E000000
+    7E82179407DA0000000
+    7E8100A61D90E000000
+    7E82179407DA0000000
+    7E80461DA0104
 - expected_values:
     FJ_ATF_T_V_14: -24.94531
     FJ_ATF_T_V_21: -36
@@ -181,14 +201,16 @@ test_cases:
     7E821500055A0000000
     7E80461DA0204
 - expected_values:
-    FJ_ATF_T_V_14: -19.84766
+    FJ_ATF_T_V_14: -24.94141
     FJ_ATF_T_V_21: -36
-    FJ_ATF_T_V_5: 65.625
-    FJ_ATF_T_V_8: 66.875
+    FJ_ATF_T_V_5: 80.625
+    FJ_ATF_T_V_8: 86.875
   response: |-
-    7E8100A61D914270004
-    7E82169A06AE0000000
-    7E80441100CD9
+    7E8100A61D9100F0004
+    7E82178A07EE0000000
+    7E8100A61D90F0F0004
+    7E82178A07EE0000000
+    7E80461DA0204
 - expected_values:
     FJ_ATF_T_V_14: -19.78125
     FJ_ATF_T_V_21: -36
@@ -221,6 +243,15 @@ test_cases:
     7E80461DA0504
     7E8044110072F
 - expected_values:
+    FJ_ATF_T_V_14: -15.81641
+    FJ_ATF_T_V_21: -36
+    FJ_ATF_T_V_5: 76.875
+    FJ_ATF_T_V_8: 78.75
+  response: |-
+    7E8100A61D9182F0004
+    7E82174E076C0000000
+    7E804411003EB
+- expected_values:
     FJ_ATF_T_V_14: -14.80469
     FJ_ATF_T_V_21: -36
     FJ_ATF_T_V_5: 55.625
@@ -228,6 +259,26 @@ test_cases:
   response: |-
     7E8100A61D919320004
     7E8215FA06040000000
+- expected_values:
+    FJ_ATF_T_V_14: -14.80469
+    FJ_ATF_T_V_21: -36
+    FJ_ATF_T_V_5: 70
+    FJ_ATF_T_V_8: 71.25
+  response: |-
+    7E8100A61D919320004
+    7E8216E006F40000000
+    7E80441100601
+- expected_values:
+    FJ_ATF_T_V_14: -14.80469
+    FJ_ATF_T_V_21: -36
+    FJ_ATF_T_V_5: 77.5
+    FJ_ATF_T_V_8: 78.75
+  response: |-
+    7E8100A61D919320004
+    7E821758076C0000000
+    7E8100A61D919320004
+    7E821758076C0000000
+    7E80461DA0404
 - expected_values:
     FJ_ATF_T_V_14: -12.78516
     FJ_ATF_T_V_21: -36
@@ -258,6 +309,15 @@ test_cases:
     7E8100A61D91C4E0004
     7E821690069A0000000
     7E8044110030A
+- expected_values:
+    FJ_ATF_T_V_14: -9.83203
+    FJ_ATF_T_V_21: -36
+    FJ_ATF_T_V_5: 78.75
+    FJ_ATF_T_V_8: 80.625
+  response: |-
+    7E8100A61D91E2B0004
+    7E82176C078A0000000
+    7E80441100D0C
 - expected_values:
     FJ_ATF_T_V_14: -6.64062
     FJ_ATF_T_V_21: -36

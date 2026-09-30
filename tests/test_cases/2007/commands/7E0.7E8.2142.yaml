@@ -1,13 +1,60 @@
 command_id: 7E0.7E8.2142
 test_cases:
 - expected_values:
-    FJ_BAT_CURRENT: -75.1564
-  response: 7E8046142330A
+    FJ_BAT_CURRENT: -75.90028
+  response: '7E80461423247'
 - expected_values:
-    FJ_BAT_CURRENT: -74.78256
+    FJ_BAT_CURRENT: -75.53025
   response: |-
-    7E8046142336C
-    7E80441100168
+    7E804614232A8
+    7E80441100178
+    7E8100A61D90E160004
+    7E82174407A80000000
+    7E80461DA0204
+- expected_values:
+    FJ_BAT_CURRENT: -75.45396
+  response: |-
+    7E804614232BC
+    7E80441100229
+- expected_values:
+    FJ_BAT_CURRENT: -75.2327
+  response: 7E804614232F6
+- expected_values:
+    FJ_BAT_CURRENT: -75.2327
+  response: |-
+    7E804614232F6
+    7E80441100846
+- expected_values:
+    FJ_BAT_CURRENT: -75.2327
+  response: |-
+    7E804614232F6
+    7E8100A61D900000004
+    7E8216FE07620000000
+    7E80461DA0104
+- expected_values:
+    FJ_BAT_CURRENT: -75.1564
+  response: |-
+    7E8046142330A
+    7E8100A61D913340004
+    7E82174E07580000000
+    7E80461DA0504
+    7E8044110058A
+- expected_values:
+    FJ_BAT_CURRENT: -74.93133
+  response: |-
+    7E80461423345
+    7E8044110047A
+    7E8100A61D913360004
+    7E82175807B20000000
+    7E80461DA0504
+- expected_values:
+    FJ_BAT_CURRENT: -74.85885
+  response: |-
+    7E80461423358
+    7E8100A61D9162B0004
+    7E82176C078A0000000
+    7E80461DA0404
+    7E8044110021C
 - expected_values:
     FJ_BAT_CURRENT: -74.71008
   response: |-
@@ -21,14 +68,6 @@ test_cases:
   response: |-
     7E804614233CD
     7E804411007F0
-- expected_values:
-    FJ_BAT_CURRENT: -74.26375
-  response: 7E804614233F4
-- expected_values:
-    FJ_BAT_CURRENT: -74.26375
-  response: |-
-    7E804614233F4
-    7E80441100175
 - expected_values:
     FJ_BAT_CURRENT: -74.18746
   response: |-
@@ -47,14 +86,6 @@ test_cases:
   response: |-
     7E8046142342F
     7E80461DA0104
-- expected_values:
-    FJ_BAT_CURRENT: -73.74113
-  response: |-
-    7E8046142347D
-    7E80441100361
-    7E8100A61D91C390004
-    7E8216A406C20000000
-    7E80461DA0504
 - expected_values:
     FJ_BAT_CURRENT: -73.74113
   response: |-

@@ -28,9 +28,6 @@ test_cases:
     7E8214CE05140000000
     7E80461DA0104
 - expected_values:
-    FJ_CAT_T_B1S2_V2: 394.6
-  response: 7E804613E10FA
-- expected_values:
     FJ_CAT_T_B1S2_V2: 422.5
   response: |-
     7E804613E1211
@@ -48,12 +45,31 @@ test_cases:
     7E82156405960000000
     7E80461DA0304
 - expected_values:
+    FJ_CAT_T_B1S2_V2: 471.6
+  response: 7E804613E13FC
+- expected_values:
     FJ_CAT_T_B1S2_V2: 474.1
   response: |-
     7E804613E1415
     7E8100A61D911210004
     7E82153C05640000000
     7E80461DA0404
+- expected_values:
+    FJ_CAT_T_B1S2_V2: 487.5
+  response: |-
+    7E804613E149B
+    7E8100A61D900000004
+    7E82174407940000000
+- expected_values:
+    FJ_CAT_T_B1S2_V2: 506.2
+  response: |-
+    7E804613E1556
+    7E804411003D6
+- expected_values:
+    FJ_CAT_T_B1S2_V2: 510.3
+  response: |-
+    7E804613E157F
+    7E804411009CB
 - expected_values:
     FJ_CAT_T_B1S2_V2: 522.8
   response: |-

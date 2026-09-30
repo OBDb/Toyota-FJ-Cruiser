@@ -7,12 +7,15 @@ test_cases:
     FJ_EVAP_PURGE_DUTY_7E0: 0
   response: |-
     7E803612E00
-    7E80441100827
+    7E80441100275
 - expected_values:
-    FJ_EVAP_PURGE_DUTY_7E0: 22.35294
+    FJ_EVAP_PURGE_DUTY_7E0: 0
   response: |-
-    7E803612E39
-    7E80441100175
+    7E803612E00
+    7E8100A61D9162C0004
+    7E82170807260000000
+    7E80461DA0404
+    7E8044110034E
 - expected_values:
     FJ_EVAP_PURGE_DUTY_7E0: 31.37255
   response: |-
@@ -33,13 +36,26 @@ test_cases:
     7E8100A61D919310004
     7E8215FA06040000000
 - expected_values:
-    FJ_EVAP_PURGE_DUTY_7E0: 56.86275
+    FJ_EVAP_PURGE_DUTY_7E0: 53.33333
   response: |-
-    7E803612E91
-    7E8044110020E
+    7E803612E88
+    7E80441100224
 - expected_values:
     FJ_EVAP_PURGE_DUTY_7E0: 100
   response: 7E803612EFF
+- expected_values:
+    FJ_EVAP_PURGE_DUTY_7E0: 100
+  response: |-
+    7E803612EFF
+    7E80441100B8C
+- expected_values:
+    FJ_EVAP_PURGE_DUTY_7E0: 100
+  response: |-
+    7E803612EFF
+    7E80441100C0F
+    7E8100A61D918300004
+    7E82176C078A0000000
+    7E80461DA0404
 - expected_values:
     FJ_EVAP_PURGE_DUTY_7E0: 100
   response: |-
