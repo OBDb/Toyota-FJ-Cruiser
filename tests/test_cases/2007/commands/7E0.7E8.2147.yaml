@@ -1,19 +1,19 @@
 command_id: 7E0.7E8.2147
 test_cases:
 - expected_values:
-    FJ_CRUISER_EGR_STEP_POSITION: 128
+    FJ_EGR_STEP_POSITION: 128
   response: '7E803614780'
 - expected_values:
-    FJ_CRUISER_EGR_STEP_POSITION: 129
+    FJ_EGR_STEP_POSITION: 129
   response: '7E803614781'
 - expected_values:
-    FJ_CRUISER_EGR_STEP_POSITION: 134
+    FJ_EGR_STEP_POSITION: 134
   response: '7E803614786'
 - expected_values:
-    FJ_CRUISER_EGR_STEP_POSITION: 138
+    FJ_EGR_STEP_POSITION: 138
   response: 7E80361478A
 - expected_values:
-    FJ_CRUISER_EGR_STEP_POSITION: 147
+    FJ_EGR_STEP_POSITION: 147
   response: |-
     7E803614793
     7E804411009D3

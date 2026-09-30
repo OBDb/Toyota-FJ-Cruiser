@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.2141
 test_cases:
 - expected_values:
-    FJ_CRUISER_OIL_CHANGE_ODO: 3218.688
+    FJ_OIL_CHANGE_ODO: 3218.688
   response: 7C803614114
 - expected_values:
-    FJ_CRUISER_OIL_CHANGE_ODO: 3379.6224
+    FJ_OIL_CHANGE_ODO: 3379.6224
   response: 7C803614115

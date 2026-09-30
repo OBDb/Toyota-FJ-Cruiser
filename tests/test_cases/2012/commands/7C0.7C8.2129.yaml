@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.2129
 test_cases:
 - expected_values:
-    FJ_CRUISER_FLI_VOL: 0.5284
+    FJ_FLI_VOL: 0.5284
   response: 7C803612904
 - expected_values:
-    FJ_CRUISER_FLI_VOL: 17.83355
+    FJ_FLI_VOL: 17.83355
   response: 7C803612987

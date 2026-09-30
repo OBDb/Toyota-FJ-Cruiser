@@ -1,26 +1,26 @@
 command_id: 7E0.7E8.2185
 test_cases:
 - expected_values:
-    FJ_CRUISER_GEAR: 1
-    FJ_CRUISER_TQC_LOCKUP: 0
+    FJ_GEAR: 1
+    FJ_TQC_LOCKUP: 0
   response: '7E8056185010010'
 - expected_values:
-    FJ_CRUISER_GEAR: 2
-    FJ_CRUISER_TQC_LOCKUP: 0
+    FJ_GEAR: 2
+    FJ_TQC_LOCKUP: 0
   response: '7E8056185020010'
 - expected_values:
-    FJ_CRUISER_GEAR: 3
-    FJ_CRUISER_TQC_LOCKUP: 0
+    FJ_GEAR: 3
+    FJ_TQC_LOCKUP: 0
   response: '7E8056185030010'
 - expected_values:
-    FJ_CRUISER_GEAR: 4
-    FJ_CRUISER_TQC_LOCKUP: 0
+    FJ_GEAR: 4
+    FJ_TQC_LOCKUP: 0
   response: '7E8056185040010'
 - expected_values:
-    FJ_CRUISER_GEAR: 5
-    FJ_CRUISER_TQC_LOCKUP: 0
+    FJ_GEAR: 5
+    FJ_TQC_LOCKUP: 0
   response: '7E8056185050010'
 - expected_values:
-    FJ_CRUISER_GEAR: 5
-    FJ_CRUISER_TQC_LOCKUP: 1
+    FJ_GEAR: 5
+    FJ_TQC_LOCKUP: 1
   response: '7E8056185058018'

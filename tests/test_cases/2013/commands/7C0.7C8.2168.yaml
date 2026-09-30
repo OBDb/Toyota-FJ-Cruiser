@@ -1,5 +1,5 @@
 command_id: 7C0.7C8.2168
 test_cases:
 - expected_values:
-    FJ_CRUISER_RHEOSTAT: 255
+    FJ_RHEOSTAT: 255
   response: 7C8036168FF

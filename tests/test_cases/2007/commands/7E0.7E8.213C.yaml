@@ -1,20 +1,20 @@
 command_id: 7E0.7E8.213C
 test_cases:
 - expected_values:
-    FJ_CRUISER_INJ_VOL_CYL_1: 0.00014
+    FJ_INJ_VOL_CYL_1: 0.00014
   response: 7E804613C11E3
 - expected_values:
-    FJ_CRUISER_INJ_VOL_CYL_1: 0.00014
+    FJ_INJ_VOL_CYL_1: 0.00014
   response: 7E804613C11FA
 - expected_values:
-    FJ_CRUISER_INJ_VOL_CYL_1: 0.00015
+    FJ_INJ_VOL_CYL_1: 0.00015
   response: 7E804613C133E
 - expected_values:
-    FJ_CRUISER_INJ_VOL_CYL_1: 0.00016
+    FJ_INJ_VOL_CYL_1: 0.00016
   response: 7E804613C1429
 - expected_values:
-    FJ_CRUISER_INJ_VOL_CYL_1: 0.0002
+    FJ_INJ_VOL_CYL_1: 0.0002
   response: 7E804613C18E8
 - expected_values:
-    FJ_CRUISER_INJ_VOL_CYL_1: 0.0002
+    FJ_INJ_VOL_CYL_1: 0.0002
   response: 7E804613C1962

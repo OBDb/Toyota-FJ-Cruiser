@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.2123
 test_cases:
 - expected_values:
-    FJ_CRUISER_ECT_7C0: 70.5
+    FJ_ECT_7C0: 70.5
   response: 7C80361238D
 - expected_values:
-    FJ_CRUISER_ECT_7C0: 92.5
+    FJ_ECT_7C0: 92.5
   response: 7C8036123B9
