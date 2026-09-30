@@ -1,12 +1,10 @@
 command_id: 7E0.7E8.2121
 test_cases:
 - expected_values:
-    TOYOTA_CC_S: 0
-    TOYOTA_CC_VSS: 0
+    FJ_CRUISER_CC_S: 0
   response: '7E80461210000'
 - expected_values:
-    TOYOTA_CC_S: 0
-    TOYOTA_CC_VSS: 0
+    FJ_CRUISER_CC_S: 0
   response: |-
     7E80461210000
     7E8044110023F

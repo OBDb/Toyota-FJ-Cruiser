@@ -1,20 +1,20 @@
 command_id: 7E0.7E8.2142
 test_cases:
 - expected_values:
-    TOYOTA_BAT_CURRENT: -75.1564
+    FJ_CRUISER_BAT_CURRENT: -75.1564
   response: 7E8046142330A
 - expected_values:
-    TOYOTA_BAT_CURRENT: -73.88991
+    FJ_CRUISER_BAT_CURRENT: -73.88991
   response: '7E80461423456'
 - expected_values:
-    TOYOTA_BAT_CURRENT: -73.81743
+    FJ_CRUISER_BAT_CURRENT: -73.81743
   response: '7E80461423469'
 - expected_values:
-    TOYOTA_BAT_CURRENT: -73.44358
+    FJ_CRUISER_BAT_CURRENT: -73.44358
   response: 7E804614234CB
 - expected_values:
-    TOYOTA_BAT_CURRENT: -73.21851
+    FJ_CRUISER_BAT_CURRENT: -73.21851
   response: '7E80461423506'
 - expected_values:
-    TOYOTA_BAT_CURRENT: -73.14603
+    FJ_CRUISER_BAT_CURRENT: -73.14603
   response: '7E80461423519'
