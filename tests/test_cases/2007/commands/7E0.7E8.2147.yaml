@@ -1,19 +1,67 @@
 command_id: 7E0.7E8.2147
 test_cases:
 - expected_values:
+    FJ_EGR_STEP_POSITION: 125
+  response: 7E80361477D
+- expected_values:
+    FJ_EGR_STEP_POSITION: 125
+  response: |-
+    7E80361477D
+    7E8044110015A
+- expected_values:
+    FJ_EGR_STEP_POSITION: 125
+  response: |-
+    7E80361477D
+    7E8044110017D
+    7E8100A61D90A080004
+    7E821500055A0000000
+    7E80461DA0104
+- expected_values:
+    FJ_EGR_STEP_POSITION: 125
+  response: |-
+    7E80361477D
+    7E8100A61D900000004
+    7E8216CC07300000000
+    7E80461DA0104
+    7E80441100164
+- expected_values:
+    FJ_EGR_STEP_POSITION: 126
+  response: |-
+    7E80361477E
+    7E8044110018C
+- expected_values:
+    FJ_EGR_STEP_POSITION: 127
+  response: |-
+    7E80361477F
+    7E80461DA0404
+- expected_values:
     FJ_EGR_STEP_POSITION: 128
-  response: '7E803614780'
+  response: |-
+    7E803614780
+    7E8100A61D91A340004
+    7E8215D205DC0000000
+    7E80461DA0400
 - expected_values:
-    FJ_EGR_STEP_POSITION: 129
-  response: '7E803614781'
-- expected_values:
-    FJ_EGR_STEP_POSITION: 134
-  response: '7E803614786'
-- expected_values:
-    FJ_EGR_STEP_POSITION: 138
-  response: 7E80361478A
+    FJ_EGR_STEP_POSITION: 136
+  response: |-
+    7E803614788
+    7E8044110050D
+    7E8100A61D909040004
+    7E8216A407120000000
+    7E80461DA0104
 - expected_values:
     FJ_EGR_STEP_POSITION: 147
   response: |-
     7E803614793
     7E804411009D3
+- expected_values:
+    FJ_EGR_STEP_POSITION: 150
+  response: |-
+    7E803614796
+    7E80441100B8C
+    7E8100A61D91E2A0004
+    7E8215F006220000000
+    7E80461DA0304
+- expected_values:
+    FJ_EGR_STEP_POSITION: 163
+  response: 7E8036147A3
