@@ -13,6 +13,12 @@ test_cases:
     TOYOTA_GEAR_V3: 4
   response: 7E80461DA0404
 - expected_values:
+    TOYOTA_GEAR_V3: 4
+  response: |-
+    7E80461DA0404
+    7E8100A61D919320004
+    7E8215A005AA0000000
+- expected_values:
     TOYOTA_GEAR_V3: 5
   response: 7E80461DA0504
 - expected_values:

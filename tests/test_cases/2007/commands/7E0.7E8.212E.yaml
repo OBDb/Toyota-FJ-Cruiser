@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.212E
 test_cases:
 - expected_values:
+    TOYOTA_EVAP_PURGE_DUTY_7E0: 0
+  response: 7E803612E00
+- expected_values:
+    TOYOTA_EVAP_PURGE_DUTY_7E0: 5.88235
+  response: 7E803612E0F
+- expected_values:
+    TOYOTA_EVAP_PURGE_DUTY_7E0: 17.64706
+  response: 7E803612E2D
+- expected_values:
     TOYOTA_EVAP_PURGE_DUTY_7E0: 42.35294
   response: 7E803612E6C

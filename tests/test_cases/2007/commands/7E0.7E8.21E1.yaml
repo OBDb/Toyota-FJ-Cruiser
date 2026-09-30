@@ -3,3 +3,8 @@ test_cases:
 - expected_values:
     TOYOTA_CODES_INCLUDE: 0
   response: 7E80461E10000
+- expected_values:
+    TOYOTA_CODES_INCLUDE: 0
+  response: |-
+    7E80461E10000
+    7E80441100A05
