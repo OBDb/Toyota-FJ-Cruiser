@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2107
+test_cases:
+- expected_values:
+    FJ_LTFT1_21: 8.55627
+  response: 7E80361078B

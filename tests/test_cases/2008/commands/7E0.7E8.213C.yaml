@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.213C
 test_cases:
 - expected_values:
-    TOYOTA_INJ_VOL_CYL_1: 2.047
+    FJ_INJ_VOL_CYL_1: 0.00023
   response: |-
     7E804613C1D5D
     02201F8

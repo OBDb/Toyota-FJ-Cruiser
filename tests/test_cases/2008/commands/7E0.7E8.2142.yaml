@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.2142
 test_cases:
 - expected_values:
-    TOYOTA_BAT_CURRENT: -75.45396
+    FJ_CRUISER_BAT_CURRENT: -75.45396
   response: |-
     7E804614232BC
     02201F5
