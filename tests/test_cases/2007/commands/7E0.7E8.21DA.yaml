@@ -25,14 +25,14 @@ test_cases:
     FJ_GEAR_V2: 1
   response: |-
     7E80461DA0104
-    7E8100A61D900000004
-    7E82166806B80000000
-- expected_values:
-    FJ_GEAR_V2: 1
-  response: |-
-    7E80461DA0104
     7E8100A61D905020004
     7E8215BE06180000000
+- expected_values:
+    FJ_GEAR_V2: 2
+  response: |-
+    7E80461DA0204
+    7E8100A61D90F150004
+    7E82176C07800000000
 - expected_values:
     FJ_GEAR_V2: 3
   response: |-
@@ -40,6 +40,13 @@ test_cases:
     7E8044110087B
     7E8100A61D917210004
     7E8216E007300000000
+- expected_values:
+    FJ_GEAR_V2: 4
+  response: |-
+    7E80461DA0404
+    7E804411002AC
+    7E8100A61D919310004
+    7E82174E07620000000
 - expected_values:
     FJ_GEAR_V2: 4
   response: |-
@@ -58,16 +65,21 @@ test_cases:
     7E8100A61D919320004
     7E8215A005AA0000000
 - expected_values:
-    FJ_GEAR_V2: 4
+    FJ_GEAR_V2: 5
   response: |-
-    7E80461DA0404
-    7E8100A61D91B260004
-    7E82157805960000000
+    7E80461DA0504
+    7E80441100374
 - expected_values:
     FJ_GEAR_V2: 5
   response: |-
     7E80461DA0504
     7E804411003FF
+- expected_values:
+    FJ_GEAR_V2: 5
+  response: |-
+    7E80461DA0504
+    7E8100A61D912330004
+    7E82175807580000000
 - expected_values:
     FJ_GEAR_V2: 84
   response: 7E80461DA5406

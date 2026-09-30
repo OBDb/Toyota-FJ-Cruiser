@@ -43,6 +43,30 @@ test_cases:
     FJ_CC_S: 0
   response: |-
     7E80461210000
+    7E80441100644
+    7E8100A61D918300004
+    7E8216E006F40000000
+    7E80461DA0404
+- expected_values:
+    FJ_CC_S: 0
+  response: |-
+    7E80461210000
+    7E80441100AD0
+    7E8100A61D91B350004
+    7E82174E07620000000
+    7E80461DA0404
+- expected_values:
+    FJ_CC_S: 0
+  response: |-
+    7E80461210000
+    7E80441100C23
+    7E8100A61D918200004
+    7E82173A079E0000000
+    7E80461DA0304
+- expected_values:
+    FJ_CC_S: 0
+  response: |-
+    7E80461210000
     7E8100A61D90E120004
     7E82149C04B00000000
     7E80461DA0204
@@ -54,6 +78,13 @@ test_cases:
     7E82158205B40000000
     7E80461DA0304
     7E804411005E8
+- expected_values:
+    FJ_CC_S: 0
+  response: |-
+    7E80461210000
+    7E8100A61D9182F0004
+    7E82174E07620000000
+    7E80461DA0404
 - expected_values:
     FJ_CC_S: 0
   response: |-

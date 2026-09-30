@@ -25,6 +25,20 @@ test_cases:
     7E80461DA0504
     7E80441100214
 - expected_values:
+    LOAD_ABS: 14.11765
+  response: |-
+    7E80441430024
+    7E8100A61D918300004
+    7E82174E07580000000
+    7E80461DA0404
+    7E8044110036E
+- expected_values:
+    LOAD_ABS: 14.5098
+  response: |-
+    7E80441430025
+    7E8100A61D915290004
+    7E82170807260000000
+- expected_values:
     LOAD_ABS: 14.90196
   response: |-
     7E80441430026
@@ -46,8 +60,24 @@ test_cases:
     LOAD_ABS: 15.68627
   response: |-
     7E80441430028
+    7E804411002E4
+    7E8100A61D9172E0004
+    7E821730079E0000000
+    7E80461DA0404
+- expected_values:
+    LOAD_ABS: 15.68627
+  response: |-
+    7E80441430028
     7E8100A61D900000004
     7E8215AA05DC0000000
+- expected_values:
+    LOAD_ABS: 15.68627
+  response: |-
+    7E80441430028
+    7E8100A61D912190004
+    7E82176C078A0000000
+    7E80461DA0204
+    7E80441100232
 - expected_values:
     LOAD_ABS: 16.47059
   response: |-
@@ -59,6 +89,14 @@ test_cases:
     7E80441430032
     7E8100A61D914270004
     7E82159605BE0000000
+- expected_values:
+    LOAD_ABS: 20.39216
+  response: |-
+    7E80441430034
+    7E80441100224
+    7E8100A61D900000004
+    7E82176207B20000000
+    7E80461DA0104
 - expected_values:
     LOAD_ABS: 23.52941
   response: |-
@@ -74,6 +112,14 @@ test_cases:
     7E8100A61D90E070004
     7E8214CE051E0000000
     7E80461DA0104
+- expected_values:
+    LOAD_ABS: 40.39216
+  response: |-
+    7E80441430067
+    7E80441100A3D
+    7E8100A61D91D1B0004
+    7E82174E07A80000000
+    7E80461DA0304
 - expected_values:
     LOAD_ABS: 56.07843
   response: |-

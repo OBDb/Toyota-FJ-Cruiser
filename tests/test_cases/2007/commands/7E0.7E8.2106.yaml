@@ -6,6 +6,12 @@ test_cases:
   response: '7E803610666'
 - expected_values:
     FJ_MIL: 0
+    FJ_NUMBER_OF_EMISSION_DTC: 113
+  response: |-
+    7E803610671
+    7E804411009D9
+- expected_values:
+    FJ_MIL: 0
     FJ_NUMBER_OF_EMISSION_DTC: 119
   response: |-
     7E803610677
@@ -18,6 +24,15 @@ test_cases:
   response: |-
     7E803610679
     7E80441100B2B
+- expected_values:
+    FJ_MIL: 0
+    FJ_NUMBER_OF_EMISSION_DTC: 123
+  response: |-
+    7E80361067B
+    7E80441100194
+    7E8100A61D900000004
+    7E82176207B20000000
+    7E80461DA0104
 - expected_values:
     FJ_MIL: 0
     FJ_NUMBER_OF_EMISSION_DTC: 125
@@ -71,6 +86,12 @@ test_cases:
     FJ_NUMBER_OF_EMISSION_DTC: 127
   response: |-
     7E80361067F
+    7E80441100221
+- expected_values:
+    FJ_MIL: 0
+    FJ_NUMBER_OF_EMISSION_DTC: 127
+  response: |-
+    7E80361067F
     7E8100A61D900000004
     7E82154605A00000000
     7E80461DA0104
@@ -85,10 +106,27 @@ test_cases:
     7E80461DA0104
 - expected_values:
     FJ_MIL: 1
-    FJ_NUMBER_OF_EMISSION_DTC: 1
+    FJ_NUMBER_OF_EMISSION_DTC: 0
   response: |-
-    7E803610681
-    7E804411001BD
+    7E803610680
+    7E80441100227
+    7E8100A61D914290004
+    7E8216E006EA0000000
+    7E80461DA0404
+- expected_values:
+    FJ_MIL: 1
+    FJ_NUMBER_OF_EMISSION_DTC: 0
+  response: |-
+    7E803610680
+    7E8044110029F
+- expected_values:
+    FJ_MIL: 1
+    FJ_NUMBER_OF_EMISSION_DTC: 0
+  response: |-
+    7E803610680
+    7E8100A61D910200004
+    7E82177607800000000
+    7E80461DA0404
 - expected_values:
     FJ_MIL: 1
     FJ_NUMBER_OF_EMISSION_DTC: 2
@@ -100,28 +138,10 @@ test_cases:
     FJ_NUMBER_OF_EMISSION_DTC: 2
   response: |-
     7E803610682
-    7E8100A61D907040004
-    7E8215FA065E0000000
-    7E80461DA0104
-    7E80441100178
-- expected_values:
-    FJ_MIL: 1
-    FJ_NUMBER_OF_EMISSION_DTC: 3
-  response: |-
-    7E803610683
-    7E804411001D6
-    7E8100A61D90E070004
-    7E82167206B80000000
-    7E80461DA0104
-- expected_values:
-    FJ_MIL: 1
-    FJ_NUMBER_OF_EMISSION_DTC: 3
-  response: |-
-    7E803610683
     7E8100A61D900000004
-    7E8216D6073A0000000
+    7E8216FE07620000000
     7E80461DA0104
-    7E8044110015F
+    7E8044110022F
 - expected_values:
     FJ_MIL: 1
     FJ_NUMBER_OF_EMISSION_DTC: 4
