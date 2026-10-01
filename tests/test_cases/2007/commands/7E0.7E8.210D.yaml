@@ -4,10 +4,32 @@ test_cases:
     FJ_VSS_21: 0
   response: 7E803610D00
 - expected_values:
+    FJ_VSS_21: 0
+  response: |-
+    7E803610D00
+    7E80441100161
+- expected_values:
+    FJ_VSS_21: 0
+  response: |-
+    7E803610D00
+    7E8100A61D900000004
+    7E8217DA08160000000
+    7E80461DA0104
+- expected_values:
     FJ_VSS_21: 3
   response: |-
     7E803610D03
-    7E80441100222
+    7E8100A61D900000004
+    7E8217D008200000000
+    7E80461DA0104
+    7E80441100170
+- expected_values:
+    FJ_VSS_21: 3
+  response: |-
+    7E803610D03
+    7E8100A61D904020004
+    7E821758078A0000000
+    7E80461DA0104
 - expected_values:
     FJ_VSS_21: 8
   response: |-
@@ -17,10 +39,26 @@ test_cases:
     7E82173007940000000
     7E80461DA0104
 - expected_values:
-    FJ_VSS_21: 28
+    FJ_VSS_21: 9
   response: |-
-    7E803610D1C
-    7E80441100B54
+    7E803610D09
+    7E8100A61D90E080004
+    7E82174E07940000000
+    7E80461DA0104
+- expected_values:
+    FJ_VSS_21: 16
+  response: |-
+    7E803610D10
+    7E80461DA0204
+    7E80441100A73
+- expected_values:
+    FJ_VSS_21: 34
+  response: |-
+    7E803610D22
+    7E80441100300
+    7E8100A61D9101F0004
+    7E8217DA08200000000
+    7E80461DA0404
 - expected_values:
     FJ_VSS_21: 35
   response: |-
@@ -35,12 +73,27 @@ test_cases:
     7E803610D27
     7E80461DA0404
 - expected_values:
+    FJ_VSS_21: 41
+  response: |-
+    7E803610D29
+    7E804411007BA
+    7E8100A61D91D2A0004
+    7E8217EE08020000000
+    7E80461DA0404
+- expected_values:
     FJ_VSS_21: 53
   response: |-
     7E803610D35
     7E8100A61D91A330004
     7E82178A08700000000
     7E80461DA0404
+- expected_values:
+    FJ_VSS_21: 58
+  response: |-
+    7E803610D3A
+    7E8100A61D9153B0004
+    7E821780078A0000000
+    7E80461DA0504
 - expected_values:
     FJ_VSS_21: 59
   response: |-
@@ -59,6 +112,11 @@ test_cases:
   response: |-
     7E803610D41
     7E8044110047F
+- expected_values:
+    FJ_VSS_21: 72
+  response: |-
+    7E803610D48
+    7E80441100F61
 - expected_values:
     FJ_VSS_21: 72
   response: |-
@@ -92,6 +150,14 @@ test_cases:
   response: |-
     7E803610D67
     7E80441100768
+- expected_values:
+    FJ_VSS_21: 105
+  response: |-
+    7E803610D69
+    7E8044110095B
+    7E8100A61D926690004
+    7E82178A07940000000
+    7E80461DA5506
 - expected_values:
     FJ_VSS_21: 107
   response: |-
