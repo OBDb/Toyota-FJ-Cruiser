@@ -1,0 +1,130 @@
+command_id: 7E0.7E8.2107
+test_cases:
+- expected_values:
+    FJ_LTFT1_21: 7.77529
+  response: 7E80361078A
+- expected_values:
+    FJ_LTFT1_21: 7.77529
+  response: |-
+    7E80361078A
+    7E8044110017A
+- expected_values:
+    FJ_LTFT1_21: 7.77529
+  response: |-
+    7E80361078A
+    7E804411001DF
+    7E8100A61D9101F0004
+    7E82173007620000000
+    7E80461DA0404
+- expected_values:
+    FJ_LTFT1_21: 7.77529
+  response: |-
+    7E80361078A
+    7E804411002B4
+    7E8100A61D912250004
+    7E8216FE07080000000
+    7E80461DA0404
+- expected_values:
+    FJ_LTFT1_21: 7.77529
+  response: |-
+    7E80361078A
+    7E8100A61D900000004
+    7E8214C405000000000
+    7E80461DA0104
+- expected_values:
+    FJ_LTFT1_21: 7.77529
+  response: |-
+    7E80361078A
+    7E8100A61D90D0A0004
+    7E82176208160000000
+    7E80461DA0104
+- expected_values:
+    FJ_LTFT1_21: 9.33725
+  response: |-
+    7E80361078C
+    7E80441100369
+    7E8100A61D917420004
+    7E82173A07440000000
+    7E80461DA0504
+- expected_values:
+    FJ_LTFT1_21: 10.11824
+  response: |-
+    7E80361078D
+    7E8100A61D925670004
+    7E82168606860000000
+    7E80461DA5506
+- expected_values:
+    FJ_LTFT1_21: 10.89922
+  response: |-
+    7E80361078E
+    7E804411008E3
+- expected_values:
+    FJ_LTFT1_21: 10.89922
+  response: |-
+    7E80361078E
+    7E80441100A7D
+- expected_values:
+    FJ_LTFT1_21: 10.89922
+  response: |-
+    7E80361078E
+    7E8100A61D917400004
+    7E8214EC04EC0000000
+    7E80461DA0504
+- expected_values:
+    FJ_LTFT1_21: 10.89922
+  response: |-
+    7E80361078E
+    7E8100A61D91F570004
+    7E8215FA05FA0000000
+    7E80461DA5506
+- expected_values:
+    FJ_LTFT1_21: 11.6802
+  response: |-
+    7E80361078F
+    7E8044110072F
+    7E8100A61D9153B0004
+    7E82178A07B20000000
+    7E80461DA0504
+- expected_values:
+    FJ_LTFT1_21: 11.6802
+  response: |-
+    7E80361078F
+    7E8100A61D912240004
+    7E82149C04A60000000
+    7E80461DA0404
+- expected_values:
+    FJ_LTFT1_21: 11.6802
+  response: |-
+    7E80361078F
+    7E8100A61D919450004
+    7E82179407A80000000
+    7E80461DA0504
+- expected_values:
+    FJ_LTFT1_21: 13.24216
+  response: |-
+    7E803610791
+    7E8100A61D925680004
+    7E8216CC06D60000000
+    7E80461DA5506
+- expected_values:
+    FJ_LTFT1_21: 15.5851
+  response: |-
+    7E803610794
+    7E80441100B8D
+- expected_values:
+    FJ_LTFT1_21: 15.5851
+  response: |-
+    7E803610794
+    7E80461DA0404
+    7E80441100C1A
+- expected_values:
+    FJ_LTFT1_21: 16.36608
+  response: '7E803610795'
+- expected_values:
+    FJ_LTFT1_21: 16.36608
+  response: |-
+    7E803610795
+    7E8100A61D9153B0004
+    7E82151405280000000
+    7E80461DA0504
+    7E8044110070B

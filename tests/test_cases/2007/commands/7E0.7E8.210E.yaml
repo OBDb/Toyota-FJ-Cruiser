@@ -1,0 +1,136 @@
+command_id: 7E0.7E8.210E
+test_cases:
+- expected_values:
+    FJ_SPARKADV_21: -3
+  response: 7E803610E7A
+- expected_values:
+    FJ_SPARKADV_21: 13
+  response: |-
+    7E803610E9A
+    7E8100A61D91F570004
+    7E8216FE07080000000
+    7E80461DA0504
+- expected_values:
+    FJ_SPARKADV_21: 14
+  response: |-
+    7E803610E9C
+    7E80441100180
+- expected_values:
+    FJ_SPARKADV_21: 17.5
+  response: |-
+    7E803610EA3
+    7E80441100C4F
+- expected_values:
+    FJ_SPARKADV_21: 17.5
+  response: |-
+    7E803610EA3
+    7E8100A61D9163E0004
+    7E8214EC04F60000000
+    7E80461DA0504
+    7E80441100767
+- expected_values:
+    FJ_SPARKADV_21: 17.5
+  response: |-
+    7E803610EA3
+    7E8100A61D918430004
+    7E82178A07B20000000
+    7E80461DA0504
+- expected_values:
+    FJ_SPARKADV_21: 18
+  response: |-
+    7E803610EA4
+    7E8100A61D91A490004
+    7E82179407B20000000
+    7E80461DA0504
+- expected_values:
+    FJ_SPARKADV_21: 19
+  response: |-
+    7E803610EA6
+    7E8100A61D925670004
+    7E82169A069A0000000
+    7E80461DA5506
+- expected_values:
+    FJ_SPARKADV_21: 19.5
+  response: |-
+    7E803610EA7
+    7E80461DA0504
+    7E80441100BBF
+- expected_values:
+    FJ_SPARKADV_21: 20
+  response: |-
+    7E803610EA8
+    7E8100A61D9286F0004
+    7E8216FE06FE0000000
+    7E80461DA5506
+- expected_values:
+    FJ_SPARKADV_21: 20.5
+  response: |-
+    7E803610EA9
+    7E8100A61D917400004
+    7E82154605460000000
+    7E80461DA0504
+- expected_values:
+    FJ_SPARKADV_21: 21.5
+  response: |-
+    7E803610EAB
+    7E8100A61D9215A0004
+    7E8216CC06CC0000000
+    7E80461DA5506
+    7E80441100CFB
+- expected_values:
+    FJ_SPARKADV_21: 23.5
+  response: |-
+    7E803610EAF
+    7E80461DA5506
+- expected_values:
+    FJ_SPARKADV_21: 25
+  response: |-
+    7E803610EB2
+    7E8100A61D916150004
+    7E82173007940000000
+    7E80461DA0204
+- expected_values:
+    FJ_SPARKADV_21: 25.5
+  response: |-
+    7E803610EB3
+    7E80441100258
+    7E8100A61D9172D0004
+    7E82178A08840000000
+    7E80461DA0404
+- expected_values:
+    FJ_SPARKADV_21: 25.5
+  response: |-
+    7E803610EB3
+    7E80461DA0504
+    7E80441100528
+- expected_values:
+    FJ_SPARKADV_21: 26
+  response: |-
+    7E803610EB4
+    7E8044110049E
+    7E8100A61D9163F0004
+    7E82157805820000000
+    7E80461DA0504
+- expected_values:
+    FJ_SPARKADV_21: 27
+  response: |-
+    7E803610EB6
+    7E80441100753
+- expected_values:
+    FJ_SPARKADV_21: 27.5
+  response: |-
+    7E803610EB7
+    7E80441100743
+    7E8100A61D923620004
+    7E82161806180000000
+    7E80461DA5506
+- expected_values:
+    FJ_SPARKADV_21: 28
+  response: |-
+    7E803610EB8
+    7E8100A61D9205A0004
+    7E8216A406A40000000
+    7E80461DA5506
+- expected_values:
+    FJ_SPARKADV_21: 29.5
+  response: 7E803610EBB
