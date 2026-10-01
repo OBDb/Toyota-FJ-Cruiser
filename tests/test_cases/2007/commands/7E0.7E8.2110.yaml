@@ -4,12 +4,34 @@ test_cases:
     FJ_MAF_21: 1.31
   response: '7E80461100083'
 - expected_values:
-    FJ_MAF_21: 3.79
+    FJ_MAF_21: 3.62
   response: |-
-    7E8046110017B
-    7E8044110017B
+    7E8046110016A
     7E8100A61D900000004
-    7E82155A05AA0000000
+    7E8217EE083E0000000
+    7E80461DA0104
+- expected_values:
+    FJ_MAF_21: 3.67
+  response: |-
+    7E8046110016F
+    7E8044110016D
+    7E8100A61D900000004
+    7E8217DA082A0000000
+    7E80461DA0104
+- expected_values:
+    FJ_MAF_21: 3.78
+  response: |-
+    7E8046110017A
+    7E8100A61D908050004
+    7E82173007580000000
+    7E80461DA0104
+- expected_values:
+    FJ_MAF_21: 3.87
+  response: |-
+    7E80461100183
+    7E80441100181
+    7E8100A61D90D0C0004
+    7E8217B208020000000
     7E80461DA0104
 - expected_values:
     FJ_MAF_21: 3.95
@@ -20,6 +42,13 @@ test_cases:
     7E80461DA0204
     7E80441100189
 - expected_values:
+    FJ_MAF_21: 4.09
+  response: |-
+    7E80461100199
+    7E8100A61D904020004
+    7E8217DA08200000000
+    7E80461DA0104
+- expected_values:
     FJ_MAF_21: 4.2
   response: |-
     7E804611001A4
@@ -27,6 +56,11 @@ test_cases:
     7E8100A61D90F190004
     7E82149204B00000000
     7E80461DA0304
+- expected_values:
+    FJ_MAF_21: 4.68
+  response: |-
+    7E804611001D4
+    7E804411001D3
 - expected_values:
     FJ_MAF_21: 4.75
   response: |-
@@ -36,10 +70,29 @@ test_cases:
     7E80461DA0504
     7E804411001D0
 - expected_values:
-    FJ_MAF_21: 5.42
+    FJ_MAF_21: 4.84
   response: |-
-    7E8046110021E
-    7E80441100202
+    7E804611001E4
+    7E8100A61D911180004
+    7E82178A07DA0000000
+    7E80461DA0304
+    7E804411001D3
+- expected_values:
+    FJ_MAF_21: 4.95
+  response: |-
+    7E804611001EF
+    7E80461DA0404
+    7E804411002D3
+- expected_values:
+    FJ_MAF_21: 5.28
+  response: |-
+    7E80461100210
+    7E8044110020B
+- expected_values:
+    FJ_MAF_21: 5.4
+  response: |-
+    7E8046110021C
+    7E8044110021C
 - expected_values:
     FJ_MAF_21: 5.42
   response: |-
@@ -54,6 +107,21 @@ test_cases:
     7E80461DA0404
     7E80441100237
 - expected_values:
+    FJ_MAF_21: 6.79
+  response: |-
+    7E804611002A7
+    7E8100A61D912110004
+    7E8217DA080C0000000
+    7E80461DA0204
+    7E804411002A6
+- expected_values:
+    FJ_MAF_21: 7.18
+  response: |-
+    7E804611002CE
+    7E8100A61D9141C0004
+    7E82178A08160000000
+    7E80461DA0304
+- expected_values:
     FJ_MAF_21: 7.34
   response: |-
     7E804611002DE
@@ -63,21 +131,24 @@ test_cases:
     FJ_MAF_21: 7.71
   response: '7E80461100303'
 - expected_values:
-    FJ_MAF_21: 8.06
+    FJ_MAF_21: 10.03
   response: |-
-    7E80461100326
-    7E8044110032C
-- expected_values:
-    FJ_MAF_21: 12.54
-  response: |-
-    7E804611004E6
-    7E804411004DD
-    7E8100A61D9152B0004
-    7E821730073A0000000
-    7E80461DA0404
+    7E804611003EB
+    7E804411003E9
+    7E8100A61D9150B0004
+    7E82173007580000000
+    7E80461DA0104
 - expected_values:
     FJ_MAF_21: 12.79
   response: 7E804611004FF
+- expected_values:
+    FJ_MAF_21: 12.96
+  response: |-
+    7E80461100510
+    7E8044110051A
+    7E8100A61D9173F0004
+    7E82177607800000000
+    7E80461DA0504
 - expected_values:
     FJ_MAF_21: 15.39
   response: |-
@@ -86,11 +157,11 @@ test_cases:
     7E821730078A0000000
     7E80461DA0404
 - expected_values:
-    FJ_MAF_21: 16.37
+    FJ_MAF_21: 16.32
   response: |-
-    7E80461100665
-    7E8100A61D918420004
-    7E821730076C0000000
+    7E80461100660
+    7E8100A61D91A480004
+    7E82178007BC0000000
     7E80461DA0504
 - expected_values:
     FJ_MAF_21: 16.71
@@ -98,6 +169,29 @@ test_cases:
     7E80461100687
     7E80461DA5506
     7E80441100691
+- expected_values:
+    FJ_MAF_21: 17.07
+  response: |-
+    7E804611006AB
+    7E8100A61D91A240004
+    7E8217E408160000000
+    7E80461DA0304
+    7E8044110065D
+- expected_values:
+    FJ_MAF_21: 18.85
+  response: |-
+    7E8046110075D
+    7E8100A61D9180D0004
+    7E82177607BC0000000
+    7E80461DA0204
+    7E804411007DF
+- expected_values:
+    FJ_MAF_21: 24.79
+  response: |-
+    7E804611009AF
+    7E8100A61D90F1D0004
+    7E82178A07C60000000
+    7E80461DA0404
 - expected_values:
     FJ_MAF_21: 26.1
   response: |-
@@ -120,6 +214,13 @@ test_cases:
     7E80461100D75
     7E80461DA0404
     7E80441100D80
+- expected_values:
+    FJ_MAF_21: 34.57
+  response: |-
+    7E80461100D81
+    7E8100A61D9163E0004
+    7E821794079E0000000
+    7E80461DA0504
 - expected_values:
     FJ_MAF_21: 34.93
   response: |-
