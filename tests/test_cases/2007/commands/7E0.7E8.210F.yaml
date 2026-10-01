@@ -1,0 +1,128 @@
+command_id: 7E0.7E8.210F
+test_cases:
+- expected_values:
+    FJ_IAT_21: 26
+  response: 7E803610F42
+- expected_values:
+    FJ_IAT_21: 26
+  response: |-
+    7E803610F42
+    7E80441100186
+- expected_values:
+    FJ_IAT_21: 27
+  response: |-
+    7E803610F43
+    7E8044110017B
+- expected_values:
+    FJ_IAT_21: 28
+  response: |-
+    7E803610F44
+    7E80441100969
+    7E8100A61D9173F0004
+    7E82153C05460000000
+    7E80461DA0504
+- expected_values:
+    FJ_IAT_21: 28
+  response: |-
+    7E803610F44
+    7E8100A61D9163E0004
+    7E8214EC04EC0000000
+    7E80461DA0504
+    7E8044110040D
+- expected_values:
+    FJ_IAT_21: 29
+  response: |-
+    7E803610F45
+    7E80441100738
+    7E8100A61D9163F0004
+    7E82154605500000000
+    7E80461DA0504
+- expected_values:
+    FJ_IAT_21: 30
+  response: |-
+    7E803610F46
+    7E80441100BB1
+- expected_values:
+    FJ_IAT_21: 30
+  response: |-
+    7E803610F46
+    7E8100A61D9163D0004
+    7E82158C058C0000000
+    7E80461DA0504
+    7E804411007D7
+- expected_values:
+    FJ_IAT_21: 30
+  response: |-
+    7E803610F46
+    7E8100A61D925670004
+    7E82166806680000000
+    7E80461DA5506
+    7E80441100A76
+- expected_values:
+    FJ_IAT_21: 31
+  response: |-
+    7E803610F47
+    7E80441100BCA
+- expected_values:
+    FJ_IAT_21: 31
+  response: |-
+    7E803610F47
+    7E80461DA5506
+    7E804411009FC
+- expected_values:
+    FJ_IAT_21: 31
+  response: |-
+    7E803610F47
+    7E8100A61D91B4B0004
+    7E8216FE06FE0000000
+    7E80461DA0504
+- expected_values:
+    FJ_IAT_21: 32
+  response: |-
+    7E803610F48
+    7E8100A61D9153C0004
+    7E82178A07A80000000
+    7E80461DA0504
+- expected_values:
+    FJ_IAT_21: 33
+  response: |-
+    7E803610F49
+    7E8100A61D91A470004
+    7E82177607800000000
+    7E80461DA0504
+- expected_values:
+    FJ_IAT_21: 33
+  response: |-
+    7E803610F49
+    7E8100A61D91D510004
+    7E8216C206CC0000000
+    7E80461DA5506
+- expected_values:
+    FJ_IAT_21: 35
+  response: |-
+    7E803610F4B
+    7E804411001AF
+- expected_values:
+    FJ_IAT_21: 37
+  response: |-
+    7E803610F4D
+    7E80461DA0404
+    7E80441100320
+- expected_values:
+    FJ_IAT_21: 37
+  response: |-
+    7E803610F4D
+    7E8100A61D90F1E0004
+    7E821730078A0000000
+    7E80461DA0404
+- expected_values:
+    FJ_IAT_21: 37
+  response: |-
+    7E803610F4D
+    7E8100A61D914290004
+    7E82173007800000000
+    7E80461DA0404
+    7E804411005C4
+- expected_values:
+    FJ_IAT_21: 46
+  response: 7E803610F56

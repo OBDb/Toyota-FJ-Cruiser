@@ -1,8 +1,22 @@
 command_id: 7E0.0144
 test_cases:
 - expected_values:
-    EQ_RAT: 0.85243
-  response: 7E80441446D1C
+    EQ_RAT: 0.82048
+  response: '7E80441446905'
+- expected_values:
+    EQ_RAT: 0.90327
+  response: |-
+    7E8044144739E
+    7E8100A61D911220004
+    7E821730074E0000000
+    7E80461DA0404
+    7E80441100253
+- expected_values:
+    EQ_RAT: 0.91237
+  response: |-
+    7E804414474C8
+    7E80461DA0504
+    7E804411002FC
 - expected_values:
     EQ_RAT: 0.91237
   response: |-
@@ -10,10 +24,50 @@ test_cases:
     7E8100A61D918300004
     7E82173007940000000
 - expected_values:
+    EQ_RAT: 0.92033
+  response: |-
+    7E804414475CD
+    7E804411001A1
+- expected_values:
     EQ_RAT: 0.92467
   response: |-
     7E8044144765B
-    7E804411001CE
+    7E80441100230
+- expected_values:
+    EQ_RAT: 0.92467
+  response: |-
+    7E8044144765B
+    7E8044110028D
+    7E8100A61D918420004
+    7E82178007940000000
+    7E80461DA0504
+- expected_values:
+    EQ_RAT: 0.92467
+  response: |-
+    7E8044144765B
+    7E80461DA0504
+    7E804411001D4
+- expected_values:
+    EQ_RAT: 0.92467
+  response: |-
+    7E8044144765B
+    7E80461DA0504
+    7E8044110021C
+- expected_values:
+    EQ_RAT: 0.92467
+  response: |-
+    7E8044144765B
+    7E8100A61D910200004
+    7E8216FE06FE0000000
+    7E80461DA0404
+    7E804411001EF
+- expected_values:
+    EQ_RAT: 0.92467
+  response: |-
+    7E8044144765B
+    7E8100A61D914370004
+    7E82177607800000000
+    7E80461DA0504
 - expected_values:
     EQ_RAT: 0.93364
   response: |-
@@ -38,6 +92,13 @@ test_cases:
     7E80441447A01
     7E80441100AE5
 - expected_values:
+    EQ_RAT: 0.96889
+  response: |-
+    7E80441447C04
+    7E8100A61D920590004
+    7E8215FA05FA0000000
+    7E80461DA5506
+- expected_values:
     EQ_RAT: 0.96928
   response: |-
     7E80441447C11
@@ -54,21 +115,16 @@ test_cases:
     7E80461DA0504
     7E80441100964
 - expected_values:
-    EQ_RAT: 0.97151
-  response: |-
-    7E80441447C5A
-    7E8100A61D900000004
-    7E8214EC05320000000
-    7E80461DA0104
-    7E80441100165
-- expected_values:
     EQ_RAT: 0.97658
   response: 7E80441447D00
 - expected_values:
-    EQ_RAT: 0.9778
+    EQ_RAT: 0.97713
   response: |-
-    7E80441447D28
-    7E80441100170
+    7E80441447D12
+    7E8100A61D90F1F0004
+    7E82176C07E40000000
+    7E80461DA0404
+    7E80441100189
 - expected_values:
     EQ_RAT: 0.98436
   response: 7E80441447DFF
@@ -85,41 +141,18 @@ test_cases:
     7E82156E05A00000000
     7E80461DA0304
 - expected_values:
-    EQ_RAT: 1.00047
+    EQ_RAT: 1.00423
   response: |-
-    7E8044144800F
-    7E8100A61D914380004
-    7E82174E07580000000
-    7E80461DA0504
+    7E8044144808A
+    7E80441100FF9
 - expected_values:
-    EQ_RAT: 1.00282
+    EQ_RAT: 1.0085
   response: |-
-    7E8044144805C
-    7E8100A61D9162D0004
-    7E821528053C0000000
-    7E80461DA0404
-    7E80441100539
-- expected_values:
-    EQ_RAT: 1.0034
-  response: |-
-    7E8044144806F
-    7E8100A61D91C4D0004
-    7E8216A406A40000000
-    7E80461DA0504
-    7E804411006B8
-- expected_values:
-    EQ_RAT: 1.0052
-  response: |-
-    7E804414480AA
-    7E80441100D2A
-- expected_values:
-    EQ_RAT: 1.01399
-  response: |-
-    7E804414481CA
-    7E8100A61D916370004
-    7E8215A005AA0000000
-    7E80461DA0504
-    7E804411007A2
+    7E80441448116
+    7E80441100DB0
+    7E8100A61D9276C0004
+    7E8216F406FE0000000
+    7E80461DA5506
 - expected_values:
     EQ_RAT: 1.01445
   response: |-
@@ -127,6 +160,13 @@ test_cases:
     7E8044110015C
     7E8100A61D900000004
     7E8216EA074E0000000
+- expected_values:
+    EQ_RAT: 1.03279
+  response: |-
+    7E80441448432
+    7E8100A61D91B4B0004
+    7E82178A07940000000
+    7E80461DA0504
 - expected_values:
     EQ_RAT: 1.04515
   response: |-
@@ -138,6 +178,14 @@ test_cases:
   response: |-
     7E804414489D8
     7E804411003EC
+- expected_values:
+    EQ_RAT: 1.09056
+  response: |-
+    7E80441448B97
+    7E8100A61D91C4F0004
+    7E8215C805D20000000
+    7E80461DA5506
+    7E80441100691
 - expected_values:
     EQ_RAT: 1.19533
   response: '7E80441449900'

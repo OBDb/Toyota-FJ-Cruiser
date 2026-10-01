@@ -1,0 +1,104 @@
+command_id: 7E0.7E8.210D
+test_cases:
+- expected_values:
+    FJ_VSS_21: 0
+  response: 7E803610D00
+- expected_values:
+    FJ_VSS_21: 3
+  response: |-
+    7E803610D03
+    7E80441100222
+- expected_values:
+    FJ_VSS_21: 8
+  response: |-
+    7E803610D08
+    7E80441100226
+    7E8100A61D90B060004
+    7E82173007940000000
+    7E80461DA0104
+- expected_values:
+    FJ_VSS_21: 28
+  response: |-
+    7E803610D1C
+    7E80441100B54
+- expected_values:
+    FJ_VSS_21: 35
+  response: |-
+    7E803610D23
+    7E8100A61D910200004
+    7E82149C04A60000000
+    7E80461DA0404
+    7E804411001D3
+- expected_values:
+    FJ_VSS_21: 39
+  response: |-
+    7E803610D27
+    7E80461DA0404
+- expected_values:
+    FJ_VSS_21: 53
+  response: |-
+    7E803610D35
+    7E8100A61D91A330004
+    7E82178A08700000000
+    7E80461DA0404
+- expected_values:
+    FJ_VSS_21: 59
+  response: |-
+    7E803610D3B
+    7E804411001C0
+- expected_values:
+    FJ_VSS_21: 64
+  response: |-
+    7E803610D40
+    7E8044110024B
+    7E8100A61D9173F0004
+    7E8214EC04EC0000000
+    7E80461DA0504
+- expected_values:
+    FJ_VSS_21: 65
+  response: |-
+    7E803610D41
+    7E8044110047F
+- expected_values:
+    FJ_VSS_21: 72
+  response: |-
+    7E803610D48
+    7E80461DA0504
+    7E80441100C35
+- expected_values:
+    FJ_VSS_21: 90
+  response: |-
+    7E803610D5A
+    7E8100A61D9205A0004
+    7E8216A406A40000000
+    7E80461DA5506
+- expected_values:
+    FJ_VSS_21: 100
+  response: |-
+    7E803610D64
+    7E804411007E7
+    7E8100A61D924630004
+    7E82162C06360000000
+    7E80461DA5506
+- expected_values:
+    FJ_VSS_21: 101
+  response: |-
+    7E803610D65
+    7E8100A61D924650004
+    7E82162206220000000
+    7E80461DA5506
+- expected_values:
+    FJ_VSS_21: 103
+  response: |-
+    7E803610D67
+    7E80441100768
+- expected_values:
+    FJ_VSS_21: 107
+  response: |-
+    7E803610D6B
+    7E8100A61D9276C0004
+    7E8216F406F40000000
+    7E80461DA5506
+- expected_values:
+    FJ_VSS_21: 111
+  response: 7E803610D6F
