@@ -1,13 +1,16 @@
 command_id: 7E0.0144
 test_cases:
 - expected_values:
-    EQ_RAT: 0.82048
-  response: '7E80441446905'
+    EQ_RAT: 0.81813
+  response: 7E804414468B8
 - expected_values:
-    EQ_RAT: 0.8697
+    EQ_RAT: 0.86583
   response: |-
-    7E80441446F52
-    7E80441100C65
+    7E80441446ED3
+    7E80441100A07
+- expected_values:
+    EQ_RAT: 0.87498
+  response: 7E80441446FFF
 - expected_values:
     EQ_RAT: 0.89131
   response: |-
@@ -16,6 +19,11 @@ test_cases:
     7E8100A61D90D0B0004
     7E82164006720000000
     7E80461DA0104
+- expected_values:
+    EQ_RAT: 0.9012
+  response: |-
+    7E8044144735A
+    7E80441100153
 - expected_values:
     EQ_RAT: 0.90327
   response: |-
@@ -31,6 +39,12 @@ test_cases:
     7E8100A61D9173F0004
     7E8216EA06F40000000
     7E80461DA0504
+- expected_values:
+    EQ_RAT: 0.90816
+  response: |-
+    7E8044144743E
+    7E80461DA0204
+    7E80441100191
 - expected_values:
     EQ_RAT: 0.91051
   response: |-
@@ -52,9 +66,6 @@ test_cases:
     7E8100A61D918300004
     7E82173007940000000
 - expected_values:
-    EQ_RAT: 0.92186
-  response: 7E804414475FF
-- expected_values:
     EQ_RAT: 0.92467
   response: |-
     7E8044144765B
@@ -67,18 +78,6 @@ test_cases:
     7E8100A61D918420004
     7E8216FE07080000000
     7E80461DA0504
-- expected_values:
-    EQ_RAT: 0.92467
-  response: |-
-    7E8044144765B
-    7E80461DA0504
-    7E804411001D4
-- expected_values:
-    EQ_RAT: 0.92467
-  response: |-
-    7E8044144765B
-    7E80461DA0504
-    7E8044110021C
 - expected_values:
     EQ_RAT: 0.92467
   response: |-
@@ -201,6 +200,12 @@ test_cases:
     7E82175807620000000
     7E80461DA0504
     7E804411005F6
+- expected_values:
+    EQ_RAT: 1.00194
+  response: |-
+    7E8044144803F
+    7E80461DA0504
+    7E80441100618
 - expected_values:
     EQ_RAT: 1.00423
   response: |-

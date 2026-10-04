@@ -4,6 +4,20 @@ test_cases:
     LOAD_PCT: 0
   response: '7E803410400'
 - expected_values:
+    LOAD_PCT: 24.70588
+  response: |-
+    7E80341043F
+    7E8100A61D913260004
+    7E82176C07800000000
+    7E80461DA0404
+- expected_values:
+    LOAD_PCT: 24.70588
+  response: |-
+    7E80341043F
+    7E8100A61D9172E0004
+    7E821744074E0000000
+    7E80461DA0404
+- expected_values:
     LOAD_PCT: 25.09804
   response: |-
     7E803410440
@@ -14,12 +28,26 @@ test_cases:
     7E803410440
     7E80461DA0404
 - expected_values:
-    LOAD_PCT: 26.66667
+    LOAD_PCT: 25.88235
   response: |-
-    7E803410444
-    7E8100A61D915210004
-    7E8215E606040000000
+    7E803410442
+    7E8044110021F
+    7E8100A61D9172E0004
+    7E82176207BC0000000
     7E80461DA0404
+- expected_values:
+    LOAD_PCT: 25.88235
+  response: |-
+    7E803410442
+    7E8100A61D918300004
+    7E82174E07940000000
+    7E80461DA0404
+    7E804411005BE
+- expected_values:
+    LOAD_PCT: 26.27451
+  response: |-
+    7E803410443
+    7E80441100210
 - expected_values:
     LOAD_PCT: 27.45098
   response: |-
@@ -28,29 +56,20 @@ test_cases:
     7E82166806B80000000
     7E80461DA0104
 - expected_values:
+    LOAD_PCT: 27.45098
+  response: |-
+    7E803410446
+    7E8100A61D9153B0004
+    7E821730073A0000000
+    7E80461DA0504
+- expected_values:
     LOAD_PCT: 27.84314
   response: |-
     7E803410447
-    7E80441100206
-    7E8100A61D913250004
-    7E82169006C20000000
+    7E8100A61D90E1D0004
+    7E82177607B20000000
     7E80461DA0404
-- expected_values:
-    LOAD_PCT: 28.23529
-  response: |-
-    7E803410448
-    7E8100A61D911220004
-    7E82153C05B40000000
-    7E80461DA0404
-    7E804411001EC
-- expected_values:
-    LOAD_PCT: 28.62745
-  response: |-
-    7E803410449
-    7E80441100222
-    7E8100A61D915290004
-    7E82179407BC0000000
-    7E80461DA0404
+    7E80441100189
 - expected_values:
     LOAD_PCT: 29.01961
   response: |-
@@ -58,11 +77,6 @@ test_cases:
     7E8100A61D90F170004
     7E8216A406FE0000000
     7E80461DA0204
-- expected_values:
-    LOAD_PCT: 29.80392
-  response: |-
-    7E80341044C
-    7E80441100180
 - expected_values:
     LOAD_PCT: 30.58824
   response: |-
@@ -75,13 +89,6 @@ test_cases:
   response: |-
     7E803410451
     7E80461DA0104
-- expected_values:
-    LOAD_PCT: 32.54902
-  response: |-
-    7E803410453
-    7E8100A61D9153A0004
-    7E821730073A0000000
-    7E80461DA0504
 - expected_values:
     LOAD_PCT: 32.94118
   response: |-
@@ -219,14 +226,6 @@ test_cases:
     7E80461DA0204
     7E80441100935
 - expected_values:
-    LOAD_PCT: 67.45098
-  response: |-
-    7E8034104AC
-    7E8100A61D91E2A0004
-    7E821636064A0000000
-    7E80461DA0404
-    7E80441100B17
-- expected_values:
     LOAD_PCT: 68.62745
   response: |-
     7E8034104AF
@@ -255,10 +254,10 @@ test_cases:
     7E82160406540000000
     7E80461DA0304
 - expected_values:
-    LOAD_PCT: 92.15686
+    LOAD_PCT: 93.72549
   response: |-
-    7E8034104EB
-    7E80441100C2A
+    7E8034104EF
+    7E80461DA5506
 - expected_values:
     LOAD_PCT: 95.68627
   response: |-
