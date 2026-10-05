@@ -33,6 +33,13 @@ test_cases:
     7E80461DA0404
     7E80441100253
 - expected_values:
+    EQ_RAT: 0.90474
+  response: |-
+    7E804414473CE
+    7E8100A61D90D1A0004
+    7E82160E06220000000
+    7E80461DA0304
+- expected_values:
     EQ_RAT: 0.90736
   response: |-
     7E80441447424
@@ -171,6 +178,14 @@ test_cases:
     EQ_RAT: 0.97658
   response: 7E80441447D00
 - expected_values:
+    EQ_RAT: 0.97691
+  response: |-
+    7E80441447D0B
+    7E80441100570
+    7E8100A61D9180D0004
+    7E8215D206220000000
+    7E80461DA0104
+- expected_values:
     EQ_RAT: 0.97713
   response: |-
     7E80441447D12
@@ -184,13 +199,6 @@ test_cases:
     7E80441447F4C
     7E8100A61D919230004
     7E8214B004CE0000000
-    7E80461DA0304
-- expected_values:
-    EQ_RAT: 0.99879
-  response: |-
-    7E80441447FD8
-    7E8100A61D918210004
-    7E82156E05A00000000
     7E80461DA0304
 - expected_values:
     EQ_RAT: 1.00108
