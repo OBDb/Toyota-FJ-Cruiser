@@ -150,7 +150,7 @@ test_cases:
     7E82149C04BA0000000
     7E80461DA0104
 - expected_values:
-    EQ_RAT: 0.95344
+    EQ_RAT: 0.95343
   response: |-
     7E80441447A0A
     7E8100A61D900000004
@@ -171,7 +171,7 @@ test_cases:
     7E80461DA0104
     7E804411006B5
 - expected_values:
-    EQ_RAT: 0.96876
+    EQ_RAT: 0.96875
   response: |-
     7E80441447C00
     7E804411006DF
