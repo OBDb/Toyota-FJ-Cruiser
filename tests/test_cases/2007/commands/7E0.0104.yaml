@@ -136,6 +136,14 @@ test_cases:
     7E82168606CC0000000
     7E80461DA0104
 - expected_values:
+    LOAD_PCT: 33.72549
+  response: |-
+    7E803410456
+    7E8100A61D900000004
+    7E8214D805500000000
+    7E80461DA0104
+    7E8044110019E
+- expected_values:
     LOAD_PCT: 34.11765
   response: |-
     7E803410457
@@ -240,14 +248,6 @@ test_cases:
     7E803410493
     7E80461DA0504
     7E804411007CE
-- expected_values:
-    LOAD_PCT: 63.52941
-  response: |-
-    7E8034104A2
-    7E8100A61D914130004
-    7E82165E06900000000
-    7E80461DA0204
-    7E80441100935
 - expected_values:
     LOAD_PCT: 66.66667
   response: |-
