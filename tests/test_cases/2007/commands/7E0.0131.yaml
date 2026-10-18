@@ -279,13 +279,6 @@ test_cases:
     7E80461DA0304
     7E804411001F0
 - expected_values:
-    CLR_DIST: 11801
-  response: |-
-    7E80441312E19
-    7E8100A61D900000004
-    7E821622065E0000000
-    7E80461DA0104
-- expected_values:
     CLR_DIST: 11810
   response: |-
     7E80441312E22
@@ -330,3 +323,10 @@ test_cases:
     7E80441312F0F
     7E80461DA0504
     7E8044110032F
+- expected_values:
+    CLR_DIST: 12160
+  response: |-
+    7E80441312F80
+    7E8100A61D90E0D0004
+    7E82169007080000000
+    7E80461DA0204
