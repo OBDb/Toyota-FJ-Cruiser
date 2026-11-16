@@ -69,8 +69,8 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2014 },
   "signals": [
-    {"id": "FJ_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
-    {"id": "FJ_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g"},
+    {"id": "FJ_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g",                   "suggestedMetric": "lateralAcceleration"},
+    {"id": "FJ_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g",              "suggestedMetric": "longitudinalAcceleration"},
     {"id": "FJ_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,  "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value, degrees/sec"},
     {"id": "FJ_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle",        "description": "Positive = counter-clockwise, negative = clockwise."}
   ]},
@@ -204,8 +204,8 @@
   "signals": [
     {"id": "FJ_CALCULATED_LOAD_7E0",       "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                  "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Calculated load"},
     {"id": "FJ_MAF_7E0",                   "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655.35,                           "div": 100,              "unit": "gramsPerSecond"    }, "name": "Mass air flow",                     "suggestedMetric": "massAirFlow"},
-    {"id": "FJ_MAP_7E0",                   "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                       "unit": "kilopascal"        }, "name": "Manifold absolute pressure"},
-    {"id": "FJ_ATMOSPHERE_PRESSURE",       "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                       "unit": "kilopascal"        }, "name": "Atmospheric pressure"},
+    {"id": "FJ_MAP_7E0",                   "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                       "unit": "kilopascal"        }, "name": "Manifold absolute pressure",        "suggestedMetric": "absoluteBoostPressure"},
+    {"id": "FJ_ATMOSPHERE_PRESSURE",       "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                       "unit": "kilopascal"        }, "name": "Atmospheric pressure",              "suggestedMetric": "barometricPressure"},
     {"id": "FJ_COOLANT_TEMP_7E0",          "path": "Engine",   "fmt": {"bix": 56,  "len": 8,  "max": 215,      "min": -40,                          "add": -40, "unit": "celsius"           }, "name": "Coolant temperature"},
     {"id": "FJ_ENGINE_SPEED_7E0",          "path": "Engine",   "fmt": {"bix": 64,  "len": 16, "max": 16383.75,                         "div": 4,                "unit": "rpm"               }, "name": "Engine speed"},
     {"id": "FJ_VEHICLE_SPEED_7E0",         "path": "Movement", "fmt": {"bix": 80,  "len": 8,  "max": 255,                                                       "unit": "kilometersPerHour" }, "name": "Vehicle speed",                     "suggestedMetric": "speed"},
@@ -243,7 +243,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2009, 2011], "from": 2013 },
   "signals": [
-    {"id": "FJ_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL"},
+    {"id": "FJ_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL",                                 "suggestedMetric": "checkEngineLightOn"},
     {"id": "FJ_NUMBER_OF_EMISSION_DTC",         "path": "DTCs", "fmt": {"bix": 1,  "len": 7,  "max": 127,   "unit": "scalar"     }, "name": "Number of emission DTC"},
     {"id": "FJ_COMPLETE_PARTS_MONITOR_AVAIL",   "path": "DTCs", "fmt": {"bix": 13, "len": 1,  "max": 1,     "unit": "noyes"      }, "name": "Complete parts monitor available?"},
     {"id": "FJ_FUEL_SYSTEM_MONITOR_AVAIL",      "path": "DTCs", "fmt": {"bix": 14, "len": 1,  "max": 1,     "unit": "noyes"      }, "name": "Fuel system monitor available?"},
@@ -281,7 +281,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0F"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
-    {"id": "FJ_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature"}
+    {"id": "FJ_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature", "suggestedMetric": "intakeAirTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "10"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
@@ -501,7 +501,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.4, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
-    {"id": "FJ_GEAR",       "path": "Transmission", "fmt": {          "len": 8, "max": 20, "unit": "scalar" }, "name": "Gear"},
+    {"id": "FJ_GEAR",       "path": "Transmission", "fmt": {          "len": 8, "max": 20, "unit": "scalar" }, "name": "Gear",                     "suggestedMetric": "gear"},
     {"id": "FJ_TQC_LOCKUP", "path": "Transmission", "fmt": {"bix": 8, "len": 1, "max": 1,  "unit": "offon"  }, "name": "Torque converter lock-up", "description": "Engages a clutch inside the torque converter to create a direct connection between the engine and transmission, reducing slippage and improving efficiency."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "B2"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
@@ -525,7 +525,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "D3"}, "freq": 0.25, "dbgfilter": { "to": 2006, "from": 2008 },
   "signals": [
-    {"id": "FJ_CRUISE_CTRL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"},
+    {"id": "FJ_CRUISE_CTRL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed", "suggestedMetric": "cruiseSetSpeed"},
     {"id": "FJ_CRUISE_CTRL_ON",  "path": "Engine",   "fmt": {"bix": 25, "len": 1, "max": 1,   "unit": "offon"             }, "name": "Cruise control on"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "D9"}, "freq": 5, "dbgfilter": { "to": 2006, "from": 2008 },
