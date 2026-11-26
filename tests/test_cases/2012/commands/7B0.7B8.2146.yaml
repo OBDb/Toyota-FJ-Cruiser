@@ -6,7 +6,7 @@ test_cases:
     FJ_ZP_YAW: 0
   response: |-
     7B8100961460000807D
-    7B82179FF0200000000
+    7B82166FF0600000000
 - expected_values:
     FJ_ZP_DEC: 0
     FJ_ZP_DEC2: 0
@@ -20,7 +20,7 @@ test_cases:
     FJ_ZP_YAW: 0
   response: |-
     7B8100961460000807D
-    7B82190FF0200000000
+    7B82180FF0600000000
 - expected_values:
     FJ_ZP_DEC: 0
     FJ_ZP_DEC2: 0

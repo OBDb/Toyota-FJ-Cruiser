@@ -4,6 +4,11 @@ test_cases:
     FJ_CHECK_ENGINE_LIGHT: 0
     FJ_P_SEATBELT_BUCKLE_LIGHT: 0
     FJ_TAIL_CANCEL_LIGHT: 0
+  response: 7C80461120000
+- expected_values:
+    FJ_CHECK_ENGINE_LIGHT: 0
+    FJ_P_SEATBELT_BUCKLE_LIGHT: 0
+    FJ_TAIL_CANCEL_LIGHT: 0
   response: 7C80461120100
 - expected_values:
     FJ_CHECK_ENGINE_LIGHT: 0
