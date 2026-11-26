@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     FJ_BAT_V: 13.5
   response: 7C803611387
+- expected_values:
+    FJ_BAT_V: 13.7
+  response: 7C803611389
