@@ -14,19 +14,24 @@ test_cases:
     FJ_CODES_INCLUDE: 0
   response: |-
     7E8100A61E100000355
-    7E821200035A6000000
-- expected_values:
-    FJ_CODES_INCLUDE: 0
-  response: |-
-    7E8100A61E100000355
-    7E821200036F8000000
-- expected_values:
-    FJ_CODES_INCLUDE: 0
-  response: |-
-    7E8100A61E100000355
-    7E82120003A39000000
-- expected_values:
-    FJ_CODES_INCLUDE: 0
-  response: |-
-    7E8100A61E100000355
     7E82120004333000000
+- expected_values:
+    FJ_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000356
+    7E82120000389000000
+- expected_values:
+    FJ_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000356
+    7E82120000721000000
+- expected_values:
+    FJ_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000357
+    7E8212000019E000000
+- expected_values:
+    FJ_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000357
+    7E82120000B8C000000
