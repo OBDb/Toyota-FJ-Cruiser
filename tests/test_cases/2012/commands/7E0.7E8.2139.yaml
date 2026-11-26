@@ -1,0 +1,16 @@
+command_id: 7E0.7E8.2139
+test_cases:
+- expected_values:
+    FJ_ACIS_VSV_ON: 0
+    FJ_EVAP_PURGE_VSV_ON: 0
+    FJ_FUEL_PMP_SPD_STAT_ON: 1
+    FJ_TQ_CONV_TE1_ON: 0
+    FJ_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E806613900020000'
+- expected_values:
+    FJ_ACIS_VSV_ON: 0
+    FJ_EVAP_PURGE_VSV_ON: 0
+    FJ_FUEL_PMP_SPD_STAT_ON: 1
+    FJ_TQ_CONV_TE1_ON: 0
+    FJ_VARIABLE_VLV_TIM_1_ON: 0
+  response: '7E806613901020000'

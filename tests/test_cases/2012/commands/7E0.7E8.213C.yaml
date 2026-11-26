@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.213C
+test_cases:
+- expected_values:
+    FJ_INJ_DUR_CYL_1: 2.465
+    FJ_INJ_VOL_CYL_1: 0.00012
+  response: 7E806613C0E6709A1
+- expected_values:
+    FJ_INJ_DUR_CYL_1: 2.516
+    FJ_INJ_VOL_CYL_1: 0.00012
+  response: 7E806613C0F0509D4
+- expected_values:
+    FJ_INJ_DUR_CYL_1: 2.819
+    FJ_INJ_VOL_CYL_1: 0.00014
+  response: 7E806613C11F80B03
+- expected_values:
+    FJ_INJ_DUR_CYL_1: 2.535
+    FJ_INJ_VOL_CYL_1: 0.00014
+  response: 7E806613C11FF09E7
+- expected_values:
+    FJ_INJ_DUR_CYL_1: 2.812
+    FJ_INJ_VOL_CYL_1: 0.00015
+  response: 7E806613C126F0AFC
+- expected_values:
+    FJ_INJ_DUR_CYL_1: 2.871
+    FJ_INJ_VOL_CYL_1: 0.00015
+  response: 7E806613C13100B37
