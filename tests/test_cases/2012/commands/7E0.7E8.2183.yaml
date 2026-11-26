@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2183
+test_cases:
+- expected_values:
+    FJ_G_SENS_CALIBRATION: 0
+    FJ_TRANS_OIL_PRESS: 0
+  response: '7E803618300'
